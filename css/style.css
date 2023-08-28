@@ -9938,11 +9938,11 @@ h6,
 }
 
 .portfolio-item:hover .portfolio-btn {
-  opacity: 0;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
+  opacity: 1;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+  top: 5px;
+  left: 5px;
 }
 
 .testimonial-carousel .owl-dots {
