@@ -55,9 +55,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #fff;
   text-align: left;
-  background-color: #fff; }
+  background-color: #191C19; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -137,7 +137,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #6D67BA;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -2459,7 +2459,7 @@ fieldset:disabled a.btn {
   color: #867FE1;
   text-decoration: none; }
   .btn-link:hover {
-    color: #0056b3;
+    color: #6D67BA;
     text-decoration: underline; }
   .btn-link:focus, .btn-link.focus {
     text-decoration: underline;
@@ -4019,7 +4019,7 @@ input[type="button"].btn-block {
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #0056b3;
+    color: #6D67BA;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
@@ -7994,7 +7994,7 @@ button.bg-dark:focus {
   color: #867FE1 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #0056b3 !important; }
+  color: #6D67BA !important; }
 
 .text-secondary {
   color: #6c757d !important; }
