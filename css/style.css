@@ -623,8 +623,8 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: transparent;
-  border-color: #ffffff;
+  color: black;
+  border-color: White;
   font-weight: 1000;
   font-size: 7rem;
 }
