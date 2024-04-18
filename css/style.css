@@ -623,9 +623,10 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  color: transparent;
+  border-colour:#fff;
+  font-weight: 1000;
+  font-size: 7rem;
 }
 
 .intro .intro-subtitle {
