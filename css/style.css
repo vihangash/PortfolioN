@@ -623,10 +623,10 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: black;
-  border-color: White;
+  color: transparent;
   font-weight: 1000;
   font-size: 7rem;
+  -webkit-text-stroke: 1px white;
 }
 
 .intro .intro-subtitle {
