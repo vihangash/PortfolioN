@@ -680,12 +680,12 @@ a:hover {
 }
 
 .about-mf .about-img {
-  margin-bottom: 2rem;
-  width: 100%;
+  margin-bottom: 3rem;
+  width: 80%;
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .skill-mf span {
