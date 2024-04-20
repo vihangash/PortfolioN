@@ -156,7 +156,9 @@ a:hover {
 .subtitle-a {
   color: #4e4e4e;
 }
-
+.lead{
+  font-size: 1rem;
+}
 .line-mf {
   width: 40px;
   height: 5px;
