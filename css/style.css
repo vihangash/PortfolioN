@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4em 40px 40px 40px;
   width: 360px;
   height: 100%;
-  background: white;
+  background: #26222C;
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
         content: '';
         width: 20px;
         height: 1px;
-        background: #fff;
+        background: #26222C;
         position: absolute;
         left: 0; }
   .menu-show #colorlib-main-nav {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
       text-align: left; }
       #colorlib-main-nav ul li a {
         display: block;
-        color: black;
+        color: #ffffff;
         font-size: 14px;
         padding: 10px 0;
         text-transform: uppercase;
