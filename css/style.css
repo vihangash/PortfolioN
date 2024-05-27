@@ -709,8 +709,8 @@ header {
   width: 100%;
   float: left; }
   .work-entry .work-img {
-    width: 80%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     margin-bottom: 40px;
     display: table;
     text-align: center;
@@ -718,7 +718,7 @@ header {
     .work-entry .work-img .display-t {
       display: table-cell;
       vertical-align: middle;
-      height: 500px;
+      height: 400px;
       position: relative;
       z-index: 0; }
       .work-entry .work-img .display-t:after {
@@ -737,7 +737,7 @@ header {
       .work-entry .work-img .display-t .work-name {
         display: inline-block;
         padding: 4em 3em;
-        background: #fff;
+        background:transparent;
         -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
         -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
         -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
