@@ -308,14 +308,14 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 20px;
       text-transform: uppercase;
-      color: #000;
+      color: #ffffff;
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #ffffff;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #ffffff; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
@@ -374,7 +374,7 @@ header {
       top: 8px;
       right: -40px;
       content: '';
-      background: #000;
+      background: #ffffff;
       width: 40px;
       height: 1px; }
 
@@ -385,7 +385,7 @@ header {
     .about-desc h2 span {
       display: block;
       margin-bottom: 0;
-      color: #000;
+      color: #ffffff;
       font-size: 50px;
       font-family: "Playfair Display", Georgia, serif; }
   .about-desc .desc {
@@ -414,7 +414,7 @@ header {
         top: 8px;
         right: -40px;
         content: '';
-        background: #000;
+        background: #ffffff;
         width: 40px;
         height: 1px; }
 
@@ -437,7 +437,7 @@ header {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 1.5em;
-    color: #000;
+    color: #ffffff;
     position: relative; }
   .intro-heading span {
     display: block;
@@ -498,7 +498,7 @@ header {
   border-style: solid;
   position: absolute;
   top: 0;
-  border: 1px solid #000; }
+  border: 1px solid #ffffff; }
 
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -698,7 +698,7 @@ header {
     margin-bottom: 10px; }
     .services ul li::before {
       content: '\2022';
-      color: #000;
+      color: #ffffff;
       display: inline-block;
       width: 1em;
       margin-left: -1em; }
@@ -766,7 +766,7 @@ header {
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
-      color: #000;
+      color: #ffffff;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 12px;
@@ -779,7 +779,7 @@ header {
         content: '';
         width: 40px;
         height: 1px;
-        background: #000; }
+        background: #ffffff; }
 
 #colorlib-blog .owl-carousel {
   z-index: 0; }
@@ -810,7 +810,7 @@ header {
   opacity: 1; }
   #colorlib-blog .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
     background: transparent;
-    color: #000;
+    color: #ffffff;
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none; }
@@ -899,7 +899,7 @@ header {
       top: -80px;
       left: 20px;
       background: #FFE9E3;
-      color: #000;
+      color: #ffffff;
       padding: 20px 10px;
       font-size: 12px;
       text-transform: uppercase;
@@ -916,14 +916,14 @@ header {
       font-size: 24px; }
       .article .desc h2 a {
         text-decoration: none;
-        color: #000; }
+        color: #ffffff; }
   .article:hover .meta {
     background: #fff; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
   height: 3px;
-  background: #000; }
+  background: #ffffff; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot span {
   width: 30px;
@@ -938,11 +938,11 @@ header {
   border: none; }
   .testimony blockquote p {
     font-family: "Playfair Display", Georgia, serif;
-    color: #000;
+    color: #ffffff;
     font-size: 30px; }
   .testimony blockquote span {
     font-family: "Playfair Display", Georgia, serif;
-    color: #000;
+    color: #ffffff;
     font-size: 30px; }
 
 .f-entry {
@@ -956,7 +956,7 @@ header {
       color: #4d4d4d;
       text-decoration: none; }
   .f-entry .desc span {
-    color: #000;
+    color: #ffffff;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -1108,9 +1108,9 @@ header {
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
+    background: #ffffff; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: #ffffff; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1122,22 +1122,22 @@ header {
     *display: inline;
     width: 20px;
     height: 2px;
-    color: #000;
+    color: #ffffff;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: #ffffff;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .menu-show .colorlib-nav-toggle i {
-      background: #000;
+      background: #ffffff;
       color: #fff; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 20px;
       height: 2px;
-      background: #000;
+      background: #ffffff;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1268,7 +1268,7 @@ input[type="text"] {
   display: block;
   width: 100%; }
   #footer h2 {
-    color: #000;
+    color: #ffffff;
     letter-spacing: 1px;
     font-weight: 300;
     margin-bottom: 2em; }
