@@ -988,12 +988,12 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: #726DC6;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #726DC6; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #817CDA !important;
-    border-color: #817CDA !important; }
+    background: #5E59A6 !important;
+    border-color: #5E59A6 !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #726DC6;
