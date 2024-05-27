@@ -139,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     height: 44px;
     width: 44px;
-    background: rgba(0, 0, 0, 0.05);
+    background: #26222C;
+    color: #ffffff;
     line-height: 0;
     padding: 0 !important;
     visibility: hidden;
@@ -162,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
       visibility: visible;
       opacity: 1; }
     #colorlib-main-nav .colorlib-nav-toggle:hover {
-      background: black; }
+      background: #26222C; }
       #colorlib-main-nav .colorlib-nav-toggle:hover i::before, #colorlib-main-nav .colorlib-nav-toggle:hover i::after {
         content: '';
         width: 20px;
