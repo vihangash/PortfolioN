@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   background: #26222C;
-  color: gray; }
+  color: #959595; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -1064,7 +1064,7 @@ header {
 
 .btn-outline {
   background: none;
-  border: 2px solid gray;
+  border: 2px solid #959595;
   font-size: 16px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
