@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
           #colorlib-main-nav ul li a {
             font-size: 16px; } }
         #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
-          color: black;
+          color: #726DC6;
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
