@@ -162,12 +162,12 @@ h1, h2, h3, h4, h5, h6 {
       visibility: visible;
       opacity: 1; }
     #colorlib-main-nav .colorlib-nav-toggle:hover {
-      background: #26222C; }
+      background: #726DC6; }
       #colorlib-main-nav .colorlib-nav-toggle:hover i::before, #colorlib-main-nav .colorlib-nav-toggle:hover i::after {
         content: '';
         width: 20px;
         height: 1px;
-        background: #26222C;
+        background: #ffffff;
         position: absolute;
         left: 0; }
   .menu-show #colorlib-main-nav {
