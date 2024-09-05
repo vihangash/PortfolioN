@@ -1,80 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Vicky's Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="logo">VICKY</div>
-      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work">My Work</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="home" class="fade-in-section">
-    <div class="hero-content">
-      <img src="your-photo.jpg" alt="Vicky's Photo">
-      <h1>UI/UX Designer, Product Designer</h1>
-      <p>I design simple, beautiful user experiences that speak for themselves.</p>
-      <div class="cta-buttons">
-        <a href="#work" class="btn">Explore My Work</a>
-        <a href="resume.pdf" class="btn">Download My Resume</a>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop-design">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <img class="hero-background-img" src="img/hero-background-img-1.png" />
+          <div class="frame">
+            <div class="profile-picture"></div>
+            <div class="div">
+              <div class="text-wrapper">UI/UX Designer, Product Designer</div>
+              <p class="p">I design simple, beautiful user experiences that speak for themselves.</p>
+              <div class="frame-2">
+                <div class="primary-button"><div class="text-wrapper-2">Explore My Work</div></div>
+                <div class="secondary-button"><div class="explore-my-work">Download My Resume</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="top-navigation">
+            <div class="top-navigation-2">
+              <img class="logo" src="img/logo.svg" /> <img class="menu" src="img/menu.svg" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-
-  <section id="about" class="fade-in-section">
-    <h2>Hi, I'm Vihanga. Nice to Meet You!</h2>
-    <p>Since starting my career as a UI/UX designer, I've worked on diverse projects...</p>
-  </section>
-
-  <section id="work" class="fade-in-section">
-    <h2>My Recent Work</h2>
-    <div class="work-gallery">
-      <div class="work-item">
-        <img src="project1.jpg" alt="Project 1">
-        <h3>Redesigning a Website</h3>
-        <p>UI/UX Design</p>
-      </div>
-      <div class="work-item">
-        <img src="project2.jpg" alt="Project 2">
-        <h3>Redesigning a Website</h3>
-        <p>UI/UX Design</p>
-      </div>
-      <div class="work-item">
-        <img src="project3.jpg" alt="Project 3">
-        <h3>Redesigning a Website</h3>
-        <p>UI/UX Design</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="fade-in-section">
-    <h2>Start Your Project</h2>
-    <p>Let's connect and create something amazing together...</p>
-    <a href="mailto:your-email@example.com" class="btn">Let's Connect</a>
-  </section>
-
-  <footer>
-    <p>Designed by me © vihanga.me</p>
-    <div class="social-links">
-      <a href="#">LinkedIn</a>
-      <a href="#">Behance</a>
-      <a href="#">Pinterest</a>
-      <a href="#">YouTube</a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+  </body>
 </html>
