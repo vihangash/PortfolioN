@@ -11,46 +11,27 @@
     <header>
         <nav>
             <div class="logo">VICKY</div>
-            <div class="menu">Menu Items</div>
+            <div class="menu-icon" onclick="toggleMenu()"></div>
+            <div class="dropdown-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About us</a>
+                <a href="#work">Recent Work</a>
+                <a href="#contact">Contact me</a>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <img src="image" alt="Vihanga Portrait" class="profile-pic">
-        <h1>UI/UX Designer, Product Designer</h1>
-        <p>I design simple, beautiful user experiences that speak for themselves.</p>
-        <button onclick="location.href='#work'">Explore My Work</button>
-        <button onclick="window.location.href='mailto:vihangayapa28@gmail.com'">Download My Resume</button>
-    </section>
-
-    <!-- About Section -->
-    <section class="about">
-        <h2>Hi I’m Vihanga, Nice to Meet you</h2>
-        <p>[About Content]</p>
-    </section>
-
-    <!-- Recent Work Section -->
-    <section id="work" class="recent-work">
-        <h2>My Recent Work</h2>
-        <div class="work-card" onclick="location.href='[Link to Work 1]'">[Work 1 Details]</div>
-        <div class="work-card" onclick="location.href='[Link to Work 2]'">[Work 2 Details]</div>
-        <div class="work-card" onclick="location.href='[Link to Work 3]'">[Work 3 Details]</div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <h2>Start Your Project</h2>
-        <p>Let’s connect and create something amazing together. Coffee’s on me—let’s chat and make things happen!</p>
-        <button onclick="window.location.href='mailto:vihangayapa28@gmail.com'">Let's Connect</button>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>Designed by me @ vihangayapa.me</p>
-        <div class="social-icons">
-            [Social Icons Links]
+        <div class="portrait"></div> <!-- Your portrait -->
+        <div class="content">
+            <h1>UI/UX Designer, Product Designer</h1>
+            <p>I design simple, beautiful user experiences that speak for themselves.</p>
+            <button class="button-primary" onclick="location.href='#work'">Explore My Work</button>
+            <button class="button-secondary" onclick="window.location.href='mailto:vihangayapa28@gmail.com'">Download My Resume</button>
         </div>
-    </footer>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
