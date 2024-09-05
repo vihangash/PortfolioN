@@ -12,50 +12,117 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: white;
-    padding: 10px 20px;
+    background-color: #FFFFFF; /* White background */
+    border-bottom: 2px solid #E8DCF3; /* Bottom border color */
     z-index: 1000;
 }
 
-nav .logo {
-    float: left;
-}
-
-nav .menu {
-    float: right;
-}
-
-.hero, .about, .recent-work, .contact, footer {
-    text-align: center;
-    padding: 20px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1080px;
-    margin: auto;
-}
-
-.work-card {
-    box-shadow: none;
-    transition: box-shadow 0.3s ease;
-}
-
-.work-card:hover {
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-}
-
-button {
+    margin: 0 auto;
     padding: 10px 20px;
-    margin: 10px;
+}
+
+.logo {
+    /* Assuming you have the SVG as a background image */
+    width: 120px; /* Adjust to your logo's size */
+    height: auto;
+    background: url('path_to_your_logo.svg') no-repeat;
+    background-size: contain;
+}
+
+.menu-icon {
+    display: block;
+    width: 40px;
+    height: 30px;
+    background: url('path_to_your_menu_icon.svg') no-repeat center center;
+    background-size: contain;
     cursor: pointer;
 }
 
-footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
+.menu-icon:hover {
+    background-color: #E8DCF3;
 }
 
-.social-icons {
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #E8DCF3;
+}
+
+.hero {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #081F1D;
+    padding: 0 20px;
 }
 
-/* Hover and focus states can be added for interactive elements here */
+.hero .portrait {
+    width: 40%;
+    height: auto;
+    background: url('path_to_your_portrait_image.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.hero .content {
+    width: 60%;
+    padding-left: 24px;
+}
+
+.hero h1 {
+    color: #7339AC;
+    margin-bottom: 24px;
+}
+
+.hero p {
+    margin-bottom: 24px;
+}
+
+.button-primary {
+    background-color: #7339AC;
+    color: #F7F3FA;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #360E5C;
+}
+
+.button-secondary {
+    background-color: #F3FCFB;
+    color: #2A9D8F;
+    border: 2px solid #2A9D8F;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-secondary:hover {
+    background-color: #2A9D8F;
+    color: #F3FCFB;
+}
