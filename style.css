@@ -1,37 +1,176 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="desktop-design">
-      <div class="overlap-group-wrapper">
-        <div class="overlap-group">
-          <img class="hero-background-img" src="img/hero-background-img-1.png" />
-          <div class="frame">
-            <div class="profile-picture"></div>
-            <div class="div">
-              <div class="text-wrapper">UI/UX Designer, Product Designer</div>
-              <p class="p">I design simple, beautiful user experiences that speak for themselves.</p>
-              <div class="frame-2">
-                <div class="primary-button"><div class="text-wrapper-2">Explore My Work</div></div>
-                <div class="secondary-button"><div class="explore-my-work">Download My Resume</div></div>
-              </div>
-            </div>
-          </div>
-          <div class="top-navigation">
-            <div class="top-navigation-2">
-              <img class="logo" src="img/logo.svg" /> <img class="menu" src="img/menu.svg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+.desktop-design {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
 
+.desktop-design .overlap-group-wrapper {
+  background-color: var(--system-colours-neutral-white);
+  width: 1440px;
+  height: 861px;
+}
 
-Open in Play
+.desktop-design .overlap-group {
+  position: relative;
+  height: 861px;
+}
+
+.desktop-design .hero-background-img {
+  position: absolute;
+  width: 1440px;
+  height: 769px;
+  top: 92px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop-design .frame {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  gap: 126px;
+  padding: 0px var(--system-space-space-180) 0px var(--system-space-space-180);
+  position: absolute;
+  top: 218px;
+  left: 0;
+}
+
+.desktop-design .profile-picture {
+  position: relative;
+  width: 365px;
+  height: 407px;
+  background-image: url(./img/profile-picture-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.desktop-design .div {
+  display: flex;
+  flex-direction: column;
+  width: 589px;
+  align-items: flex-start;
+  gap: var(--system-space-space-24);
+  position: relative;
+}
+
+.desktop-design .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--heading-h1-font-family);
+  font-weight: var(--heading-h1-font-weight);
+  color: var(--tokens-display-text-primary-fill);
+  font-size: var(--heading-h1-font-size);
+  letter-spacing: var(--heading-h1-letter-spacing);
+  line-height: var(--heading-h1-line-height);
+  font-style: var(--heading-h1-font-style);
+}
+
+.desktop-design .p {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-medium-font-family);
+  font-weight: var(--body-medium-font-weight);
+  color: var(--tokens-display-text-secondary-fill);
+  font-size: var(--body-medium-font-size);
+  letter-spacing: var(--body-medium-letter-spacing);
+  line-height: var(--body-medium-line-height);
+  font-style: var(--body-medium-font-style);
+}
+
+.desktop-design .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--system-space-space-24);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop-design .primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: var(--tokens-primary-button-pbtn-top-bottom-padding) var(--tokens-primary-button-pbtn-right-left-padding)
+    var(--tokens-primary-button-pbtn-top-bottom-padding) var(--tokens-primary-button-pbtn-right-left-padding);
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--tokens-primary-button-pbtn-fill);
+  border-radius: var(--tokens-primary-button-pbtn-corner-radius);
+  box-shadow: var(--drop-shadow-button);
+}
+
+.desktop-design .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Commissioner-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--tokens-primary-button-pbtn-text-colour);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-design .secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: var(--tokens-primary-button-pbtn-top-bottom-padding) var(--tokens-primary-button-pbtn-right-left-padding)
+    var(--tokens-primary-button-pbtn-top-bottom-padding) var(--tokens-primary-button-pbtn-right-left-padding);
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--tokens-secondary-button-sbtn-fill);
+  border-radius: var(--tokens-primary-button-pbtn-corner-radius);
+  box-shadow: var(--drop-shadow-button);
+}
+
+.desktop-design .explore-my-work {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Commissioner-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--tokens-secondary-button-sbtn-text-colour);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop-design .top-navigation {
+  position: absolute;
+  width: 1440px;
+  height: 335px;
+  top: 0;
+  left: 0;
+}
+
+.desktop-design .top-navigation-2 {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 180px;
+  position: relative;
+  background-color: var(--system-colours-neutral-white);
+  border-radius: 10px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #e8dcf3;
+}
+
+.desktop-design .logo {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.desktop-design .menu {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -4px;
+  margin-bottom: -12px;
+  margin-right: -8px;
+}
