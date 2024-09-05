@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop-design">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <img class="hero-background-img" src="img/hero-background-img-1.png" />
+          <div class="frame">
+            <div class="profile-picture"></div>
+            <div class="div">
+              <div class="text-wrapper">UI/UX Designer, Product Designer</div>
+              <p class="p">I design simple, beautiful user experiences that speak for themselves.</p>
+              <div class="frame-2">
+                <div class="primary-button"><div class="text-wrapper-2">Explore My Work</div></div>
+                <div class="secondary-button"><div class="explore-my-work">Download My Resume</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="top-navigation">
+            <div class="top-navigation-2">
+              <img class="logo" src="img/logo.svg" /> <img class="menu" src="img/menu.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+Open in Play
