@@ -3,35 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vihanga's Portfolio</title>
+    <title>Vicky's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Sticky Navigation Bar -->
-    <header>
-        <nav>
-            <div class="logo">VICKY</div>
-            <div class="menu-icon" onclick="toggleMenu()"></div>
-            <div class="dropdown-menu">
-                <a href="#home">Home</a>
-                <a href="#about">About us</a>
-                <a href="#work">Recent Work</a>
-                <a href="#contact">Contact me</a>
-            </div>
-        </nav>
-    </header>
+
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">VICKY</a> <!-- Replace with your logo -->
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <div class="hamburger"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Recent Work</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="portrait"></div> <!-- Your portrait -->
-        <div class="content">
-            <h1>UI/UX Designer, Product Designer</h1>
-            <p>I design simple, beautiful user experiences that speak for themselves.</p>
-            <button class="button-primary" onclick="location.href='#work'">Explore My Work</button>
-            <button class="button-secondary" onclick="window.location.href='mailto:vihangayapa28@gmail.com'">Download My Resume</button>
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="your-profile-image.jpg" alt="Profile Image">
+            </div>
+            <div class="hero-text">
+                <h1>UI/UX Designer, Product Designer</h1>
+                <p>I design simple, beautiful user experiences that speak for themselves.</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn explore">Explore My Work</a>
+                    <a href="#resume" class="btn resume">Download My Resume</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <!-- About Me Section -->
+    <section class="about-me">
+        <div class="about-content">
+            <div class="profile-avatar">
+                <img src="your-avatar.png" alt="Avatar Image">
+            </div>
+            <h2>Hi I'm Vihanga, Nice to Meet You</h2>
+            <p>Since starting my career as a UI/UX designer at Cam Management Solutions, I’ve had the opportunity to work on diverse projects—from a UK startup to a Sri Lankan startup. My journey has been rooted in remote work, where I’ve consulted for startups and consumers alike, designing intuitive and impactful digital experiences.</p>
+            <p>I’m passionate about understanding how people interact with products and services, always driven to find the best solutions to their challenges. My curiosity fuels my continuous growth, and I thrive on helping businesses connect with their users through thoughtful design.</p>
+        </div>
+    </section>
+
+    <!-- Recent Work Section -->
+    <section class="recent-work">
+        <h2>My Recent Work</h2>
+        <p>A selection of projects that showcase my expertise in creating intuitive and engaging user experiences. Click below to explore the full case studies.</p>
+
+        <div class="work-cards">
+            <!-- Work Card 1 -->
+            <a href="case-study-1.html" class="work-card">
+                <img src="project-image-1.jpg" alt="Project 1">
+                <div class="work-info">
+                    <h3>Website Redesign: From Concept to Execution</h3>
+                    <p>UX Design, Design System, UI Design</p>
+                </div>
+            </a>
+
+            <!-- Work Card 2 -->
+            <a href="case-study-2.html" class="work-card">
+                <img src="project-image-2.jpg" alt="Project 2">
+                <div class="work-info">
+                    <h3>Re-designing a website</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </a>
+
+            <!-- Work Card 3 -->
+            <a href="case-study-3.html" class="work-card">
+                <img src="project-image-3.jpg" alt="Project 3">
+                <div class="work-info">
+                    <h3>Re-designing a website</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Start Your Project Section -->
+    <section class="start-project">
+        <div class="start-content">
+            <img src="coffee-cup-icon.png" alt="Coffee Cup Icon">
+            <h2>Start Your Project</h2>
+            <p class="intro-text">Ready to bring your ideas to life?</p>
+            <p>Let's connect and create something amazing together. Coffee’s on me—let’s chat and make things happen!</p>
+            <a href="#contact" class="btn connect-btn">Let’s Connect</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>VICKY</h2>
+            <p>Designing, discovering, and improving with every project.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+                    <img src="linkedin-icon.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.behance.net/your-profile" target="_blank">
+                    <img src="behance-icon.png" alt="Behance">
+                </a>
+                <a href="https://www.pinterest.com/your-profile" target="_blank">
+                    <img src="pinterest-icon.png" alt="Pinterest">
+                </a>
+                <a href="https://www.youtube.com/your-profile" target="_blank">
+                    <img src="youtube-icon.png" alt="YouTube">
+                </a>
+                <a href="https://www.instagram.com/your-profile" target="_blank">
+                    <img src="instagram-icon.png" alt="Instagram">
+                </a>
+            </div>
+            <p class="copyright">
+                Designed by me © <a href="https://www.vihanga.me" target="_blank">vihanga.me</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
 </body>
 </html>
