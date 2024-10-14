@@ -238,13 +238,21 @@
         .hero-section {
             flex-direction: column;
             align-items: flex-start;
-            padding: 80px 40px;
+            padding: 96px 40px;
         }
 
         .hero-content {
             flex-direction: column;
             align-items: flex-start;
-            gap: 32px;
+            gap: 24px;
+        }
+
+        .hero-subtitle {
+        font-size: 18px;
+    }
+        
+        .hero-title {
+        font-size: 30px;
         }
 
         .profile-pic {
