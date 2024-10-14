@@ -405,3 +405,52 @@
     .fade-in-scroll.visible {
         opacity: 1;
     }
+
+/* Contact Section Styles */
+    .contact-section {
+        padding: 100px 40px;
+        background-color: var(--secondary-25-colour);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-container {
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contact-content {
+        text-align: center;
+    }
+
+    .contact-image-container {
+        margin-bottom: 24px;
+    }
+
+    .contact-image {
+        width: 100px;
+        height: auto;
+    }
+
+    .contact-title {
+        font-family: var(--font-secondary);
+        font-size: 30px;
+        color: var(--secondary-300-colour);
+        margin-bottom: 16px;
+    }
+
+    .contact-subtitle {
+        font-family: var(--font-secondary);
+        font-size: 24px;
+        color: var(--primary-500-colour);
+        margin-bottom: 8px;
+    }
+
+    .contact-description {
+        font-family: var(--font-primary);
+        font-size: 18px;
+        color: var(--primary-900-colour);
+        margin-bottom: 48px;
+    }
