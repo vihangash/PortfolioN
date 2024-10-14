@@ -35,7 +35,7 @@
 
     /* Top navigation styling */
     .nav-container {
-        max-width: 1400px;
+        max-width: 1000px;
         width: 100%;
         margin: 0 auto;
         display: flex;
@@ -149,7 +149,7 @@
     }
 
     .hero-container {
-        max-width: 1400px;
+        max-width: 1000px;
         width: 100%;
         margin: 0 auto;
     }
@@ -284,7 +284,7 @@
     }
 
     .about-container {
-        max-width: 1400px;
+        max-width: 1000px;
         width: 100%;
         margin: 0 auto;
     }
@@ -334,7 +334,7 @@
     }
 
     .work-container {
-        max-width: 1400px;
+        max-width: 1000px;
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -420,7 +420,7 @@
     }
 
     .contact-container {
-        max-width: 1400px;
+        max-width: 1000px;
         width: 100%;
         margin: 0 auto;
     }
@@ -470,7 +470,7 @@
 }
 
 .footer-container {
-    max-width: 1400px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
