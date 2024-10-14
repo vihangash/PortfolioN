@@ -1,4 +1,7 @@
-function toggleMenu() {
-    var menu = document.querySelector('.dropdown-menu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-}
+// Script for toggling mobile menu visibility
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.getElementById('nav-links');
+
+menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
