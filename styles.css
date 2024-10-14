@@ -180,9 +180,8 @@ body {
 }
 
 .profile-pic {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    width: 400px;
+    height: 400px;
 }
 
 .hero-text {
@@ -247,6 +246,39 @@ body {
 .btn-secondary:active {
     transform: scale(0.95);
 }
+/* Responsive hero section */
+    @media screen and (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 40px 40px;
+        }
+
+        .hero-content {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 24px;
+        }
+
+        .hero-subtitle {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+        
+        .hero-title {
+        font-size: 30px;
+        margin-bottom: 8px;
+        }
+
+        .profile-pic {
+            margin-bottom: 16px;
+            width: 300px;
+            height: 100%;
+        }
+
+        .hero-buttons {
+            justify-content: flex-start;
+        }
 
 /* About Section */
 .about-section {
