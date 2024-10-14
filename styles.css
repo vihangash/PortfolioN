@@ -455,3 +455,88 @@
         color: var(--primary-900-colour);
         margin-bottom: 48px;
     }
+
+/* Footer Section Styles */
+.footer-section {
+    padding: 40px;
+    background-color: var(--white-colour);
+    border-top: 1px solid var(--primary-50-colour);
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-family: var(--font-secondary);
+    font-size: 24px;
+    color: var(--primary-500-colour);
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    color: var(--primary-900-colour);
+    margin-bottom: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Individual Social Media Icons */
+.linkedin {
+    background-image: url('image/linkedin.png');
+}
+
+.behance {
+    background-image: url('image/behance.png');
+}
+
+.pinterest {
+    background-image: url('image/pinterest.png');
+}
+
+.youtube {
+    background-image: url('image/youtube.png');
+}
+
+.instagram {
+    background-image: url('image/instagram.png');
+}
+
+.footer-credits {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--primary-900-colour);
+}
+
+.footer-credits a {
+    color: var(--primary-500-colour);
+    text-decoration: none;
+}
+
+.footer-credits a:hover {
+    text-decoration: underline;
+}
+
