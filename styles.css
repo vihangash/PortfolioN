@@ -186,7 +186,7 @@
 
     .hero-buttons {
         display: flex;
-        gap: 24px;
+        gap: 16px;
         flex-wrap: wrap;
     }
 
