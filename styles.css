@@ -130,6 +130,9 @@
         .nav-links.active {
             display: flex;
         }
+        .nav-container {
+        padding: 8px 40px;
+    }
     }
 
     /* Hero Section */
