@@ -270,3 +270,6 @@
             justify-content: flex-start;
         }
     }
+.fade-in {
+        animation: fadeIn 2s ease-in;
+    }
