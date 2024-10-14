@@ -153,7 +153,7 @@
     .hero-content {
         display: flex;
         align-items: center;
-        gap: 40px;
+        gap: 120px;
         justify-content: space-between;
     }
 
@@ -162,7 +162,7 @@
     }
 
     .profile-pic {
-        width: 500px;
+        width: 400px;
         height: 100%;
     }
 
@@ -172,14 +172,14 @@
 
     .hero-title {
         font-family: var(--font-secondary);
-        font-size: 36px;
+        font-size: 40px;
         color: var(--primary-500-colour);
         margin-bottom: 24px;
     }
 
     .hero-subtitle {
         font-family: var(--font-primary);
-        font-size: 18px;
+        font-size: 20px;
         color: var(--primary-700-colour);
         margin-bottom: 24px;
     }
@@ -248,6 +248,8 @@
 
         .profile-pic {
             margin-bottom: 20px;
+            width: 200px;
+            height: 100%;
         }
 
         .hero-buttons {
