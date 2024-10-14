@@ -297,8 +297,8 @@
 }
 .modal-title {
         font-family: var(--font-secondary);
-        font-size: 24px;
-        color: var(--secondary-300-colour);
+        font-size: 30px;
+        color: var(--primary-300-colour);
         margin-top:24px;
         margin-bottom: 24px;
     }
