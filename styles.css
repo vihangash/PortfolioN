@@ -455,13 +455,12 @@
         color: var(--primary-900-colour);
         margin-bottom: 48px;
     }
-
-/* Footer Section Styles */
+/* footer Section Styles */
 .footer-section {
     padding: 40px;
     background-color: var(--white-colour);
-    border-top: 1px solid var(--primary-50-colour);
     text-align: center;
+    border-top: 1px solid var(--primary-50-colour);
 }
 
 .footer-container {
@@ -474,69 +473,41 @@
     font-family: var(--font-secondary);
     font-size: 24px;
     color: var(--primary-500-colour);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
-.footer-description {
+.footer-text {
     font-family: var(--font-primary);
     font-size: 18px;
     color: var(--primary-900-colour);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
-.social-icons {
+.footer-social {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 16px;
     margin-bottom: 24px;
 }
 
-.social-icon {
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.3s ease;
+.social-link {
+    font-size: 32px;
+    color: inherit;
+    transition: color 0.3s ease;
 }
 
-.social-icon:hover {
-    transform: scale(1.1);
+.social-link i {
+    color: inherit;
 }
 
-/* Individual Social Media Icons */
-.linkedin {
-    background-image: url('image/linkedin.png');
-}
-
-.behance {
-    background-image: url('image/behance.png');
-}
-
-.pinterest {
-    background-image: url('image/pinterest.png');
-}
-
-.youtube {
-    background-image: url('image/youtube.png');
-}
-
-.instagram {
-    background-image: url('image/instagram.png');
+.social-link:hover i {
+    color: var(--primary-300-colour);
 }
 
 .footer-credits {
     font-family: var(--font-primary);
-    font-size: 16px;
-    color: var(--primary-900-colour);
+    font-size: 14px;
+    color: var(--grey-100-colour);
 }
 
-.footer-credits a {
-    color: var(--primary-500-colour);
-    text-decoration: none;
-}
-
-.footer-credits a:hover {
-    text-decoration: underline;
-}
 
