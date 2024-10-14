@@ -338,7 +338,7 @@
     }
 
     .work-title {
-        font-family: var(--font-primary);
+        font-family: var(--font-secondary);
         font-size: 36px;
         color: var(--primary-500-colour);
         margin-bottom: 16px;
@@ -347,7 +347,7 @@
     .work-description {
         font-family: var(--font-primary);
         font-size: 18px;
-        color: var(--grey-100-colour);
+        color: var(--secondary-900-colour);
         margin-bottom: 48px;
         line-height: 1.6;
     }
@@ -388,8 +388,8 @@
     }
 
     .card-title {
-        font-family: var(--font-secondary);
-        font-size: 20px;
+        font-family: var(--font-primary);
+        font-size: 18px;
         color: var(--primary-700-colour);
         margin-bottom: 8px;
     }
@@ -397,7 +397,7 @@
     .card-subtitle {
         font-family: var(--font-primary);
         font-size: 16px;
-        color: var(--primary-900-colour);
+        color: var(--grey-100-colour);
     }
 
     .fade-in-scroll.visible {
