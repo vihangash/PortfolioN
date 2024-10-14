@@ -354,6 +354,7 @@
 
     .work-cards {
         display: grid;
+        align: centre;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 40px;
     }
@@ -363,7 +364,7 @@
         border-radius: 16px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         overflow: hidden;
-        max-width: 320px;
+        max-width: 400px;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
