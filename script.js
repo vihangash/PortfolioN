@@ -57,3 +57,23 @@ menuIcon.addEventListener('click', () => {
             contactLink.classList.remove('active');
         }
     });
+// JavaScript for modal functionality
+window.onload = function() {
+    const downloadBtn = document.getElementById('download-resume-btn');
+    const modal = document.getElementById('resumeModal');
+    const closeBtn = document.querySelector('.close-btn');
+
+    downloadBtn.onclick = function() {
+        modal.style.display = 'block';
+    }
+
+    closeBtn.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
+}
