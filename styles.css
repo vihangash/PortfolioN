@@ -269,4 +269,55 @@
         .hero-buttons {
             justify-content: flex-start;
         }
-    }.   
+    }   
+/* About Section Styles */
+    .about-section {
+        padding: 100px 40px;
+        background-color: var(--primary-25-colour);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container {
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-image-container {
+        margin-bottom: 24px;
+    }
+
+    .about-image {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .about-title {
+        font-family: var(--font-secondary);
+        font-size: 30px;
+        color: var(--secondary-300-colour);
+        margin-bottom: 24px;
+    }
+
+    .about-description {
+        font-family: var(--font-primary);
+        font-size: 18px;
+        color: var(--primary-900-colour);
+        margin-bottom: 24px;
+        line-height: 1.6;
+    }
+
+    .fade-in-scroll {
+        opacity: 0;
+        transition: opacity 1.5s ease-in-out;
+    }
+
+    .fade-in-scroll.visible {
+        opacity: 1;
+    }
