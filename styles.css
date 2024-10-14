@@ -293,8 +293,11 @@
     width: 80%;
     max-width: 500px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    text-align: center;
     position: relative;
+}
+.modal-body {
+    margin-top: 24px;
+    text-align: center;
 }
 .resume-options {
     margin: 20px 0;
