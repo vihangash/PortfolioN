@@ -160,6 +160,10 @@
         justify-content: space-between;
     }
 
+.fade-in {
+        animation: fadeIn 2s ease-in;
+    }
+
     .profile-pic-container {
         flex-shrink: 0;
     }
@@ -270,6 +274,4 @@
             justify-content: flex-start;
         }
     }
-.fade-in {
-        animation: fadeIn 2s ease-in;
-    }
+
