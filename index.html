@@ -43,11 +43,28 @@
                 <p class="hero-subtitle">I design simple, beautiful user experiences that speak for themselves.</p>
                 <div class="hero-buttons">
                     <button class="btn btn-primary" id="explore-btn" onclick="window.location.href='#work'">Explore My Work</button>
-                    <button class="btn btn-secondary" id="resume-btn" onclick="window.open('docs/Vihanga Yapa Resume.pdf', '_blank')">Download My Resume</button>
+                    <button id="download-resume-btn">Download Resume</button>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Choose Resume Type</h2>
+            <div class="resume-options">
+                <button class="resume-btn" onclick="window.open('ats_friendly_resume.pdf')">ATS-Friendly Resume</button>
+                <button class="resume-btn" onclick="window.open('creative_resume.pdf')">Creative Resume</button>
+                <button class="resume-btn" onclick="window.open('one_page_resume.pdf')">One-Page Resume</button>
+            </div>
+            <div class="modal-footer">
+                <a href="#" id="backToPortfolio">Back to Portfolio</a>
+                <span>Need Help? <a href="#" id="contactLink">Contact me</a></span>
+            </div>
+        </div>
+    </div>
 
     <!-- About Section -->
     <section id="about" class="about-section fade-in-scroll">
