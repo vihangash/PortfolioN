@@ -442,8 +442,9 @@
     }
 
     .contact-subtitle {
-        font-family: var(--font-secondary);
+        font-family: var(--font-primary);
         font-size: 24px;
+        font-weight: 600px;
         color: var(--primary-500-colour);
         margin-bottom: 8px;
     }
