@@ -324,7 +324,10 @@
     font-size: 25px;
     cursor: pointer;
 }
-
+.close-btn img {
+    width: 20px;
+    height: 20px;
+}
  /* About Section Styles */
     .about-section {
         padding: 76px 40px;
