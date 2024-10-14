@@ -341,6 +341,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        align: center;
     }
 
     .work-title {
@@ -360,7 +361,7 @@
 
     .work-cards {
         display: grid;
-        align: centre;
+        align: center;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
