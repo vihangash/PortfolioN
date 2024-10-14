@@ -270,9 +270,11 @@
             justify-content: flex-start;
         }
     }   
-/* About Section Styles */
+
+
+ /* About Section Styles */
     .about-section {
-        padding: 100px 40px;
+        padding: 76px 40px;
         background-color: var(--primary-25-colour);
         display: flex;
         justify-content: center;
