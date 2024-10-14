@@ -286,7 +286,7 @@
     background-color: rgba(0,0,0,0.5);
 }
 .modal-content {
-    background-color: #fff;
+    background-color: var(--white-colour);
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
@@ -298,6 +298,8 @@
 .modal-body {
     margin-top: 24px;
     text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 24px;
 }
 .resume-options {
     margin: 20px 0;
@@ -308,7 +310,7 @@
 .resume-btn {
     background-color: #e8f7f5;
     color: #336b68;
-    padding: 15px;
+    padding: 18px;
     border: none;
     border-radius: 25px;
     margin: 10px;
@@ -316,9 +318,11 @@
     transition: background-color 0.3s;
     width: 80%;
     max-width: 300px;
+    font-family: var(--font-primary);
+    font-size: 16px;
 }
 .resume-btn:hover {
-    background-color: #d2eeeb;
+    background-color: var(--primary-300-colour);
 }
 .close-btn {
     position: absolute;
