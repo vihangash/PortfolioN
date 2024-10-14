@@ -5,16 +5,30 @@ const navLinks = document.getElementById('nav-links');
 menuIcon.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
-window.addEventListener('scroll', () => {
+// Script for scroll-based animations
+    window.addEventListener('scroll', () => {
         const aboutSection = document.querySelector('.about-section');
+        const workSection = document.querySelector('.work-section');
         const aboutLink = document.querySelector(".nav-links a[href='#about']");
-        const sectionPosition = aboutSection.getBoundingClientRect().top;
+        const workLink = document.querySelector(".nav-links a[href='#work']");
+
+        const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+        const workSectionPosition = workSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
 
-        if (sectionPosition < screenPosition) {
+        if (aboutSectionPosition < screenPosition) {
             aboutSection.classList.add('visible');
             aboutLink.classList.add('active');
+            workLink.classList.remove('active');
         } else {
             aboutLink.classList.remove('active');
+        }
+
+        if (workSectionPosition < screenPosition) {
+            workSection.classList.add('visible');
+            workLink.classList.add('active');
+            aboutLink.classList.remove('active');
+        } else {
+            workLink.classList.remove('active');
         }
     });
