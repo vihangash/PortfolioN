@@ -32,6 +32,7 @@ menuIcon.addEventListener('click', () => {
         if (aboutSectionPosition < screenPosition) {
             aboutSection.classList.add('visible');
             aboutLink.classList.add('active');
+            homeLink.classList.remove('active');
             workLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
