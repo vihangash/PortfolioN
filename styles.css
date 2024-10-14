@@ -287,6 +287,7 @@
 }
 .modal-content {
     background-color: var(--white-colour);
+    colour: var(--primary-500-colour);
     margin: 20% auto;
     padding: 20px;
     border-radius: 10px;
