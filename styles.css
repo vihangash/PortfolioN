@@ -287,7 +287,6 @@
 }
 .modal-content {
     background-color: var(--white-colour);
-    colour: var(--primary-500-colour);
     margin: 20% auto;
     padding: 20px;
     border-radius: 10px;
@@ -296,12 +295,19 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     position: relative;
 }
+.modal-title {
+        font-family: var(--font-secondary);
+        font-size: 24px;
+        color: var(--secondary-300-colour);
+        margin-top:24px;
+        margin-bottom: 24px;
+    }
+
 .modal-body {
     margin-top: 24px;
     text-align: center;
     font-family: var(--font-secondary);
     font-size: 24px;
-    colour: var(--primary-500-colour)
 }
 .resume-options {
     margin: 20px 0;
