@@ -249,10 +249,12 @@
 
         .hero-subtitle {
         font-size: 18px;
+        margin-bottom: 32px;
     }
         
         .hero-title {
         font-size: 30px;
+        margin-bottom: 16px;
         }
 
         .profile-pic {
