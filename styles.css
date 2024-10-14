@@ -153,7 +153,7 @@
     .hero-content {
         display: flex;
         align-items: center;
-        gap: 96px;
+        gap: 80px;
         justify-content: space-between;
     }
 
