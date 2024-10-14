@@ -329,7 +329,7 @@
         background-color: var(--white-colour);
         display: flex;
         flex-direction: column;
-        justify-content: centre;
+        justify-content: center;
         align-items: center;
         min-height: 100vh;
     }
@@ -338,9 +338,9 @@
         max-width: 1000px;
         width: 100%;
         margin: 0 auto;
-        text-align: centre;
-        justify-content: centre;
-        align-items: centre;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .work-title {
@@ -361,8 +361,8 @@
     .work-cards {
         display: grid;
         align: centre;
-        justify-content: centre;
-        align-items: centre;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 40px;
     }
