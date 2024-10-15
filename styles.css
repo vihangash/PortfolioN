@@ -57,7 +57,7 @@
     --spacing-xxl: 64px;
 
     /* Border Radius */
-    --border-radius-sm: 8px;
+    --border-radius-sm: 14px;
     --border-radius-md: 16px;
     --border-radius-lg: 25px;
     --border-radius-round: 50%;
@@ -159,28 +159,20 @@
 }
 
 /* Utility Classes for Customizing Colors and Alignment */
-.text-primary {
+.title-secondary {
     color: var(--secondary-500-color);
 }
 
-.text-secondary {
+.subtitle-secondary {
     color: var(--secondary-900-color);
 }
 
-.text-white {
-    color: var(--white-color);
+.paragraph-secondary {
+    color: var(--secondary-900-color);
 }
 
-.text-center {
-    text-align: center;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
+.paragraph-small{
+    font-size: var(--font-size-sm);
 }
 
 
@@ -342,14 +334,14 @@
 
     .hero-title {
         font-family: var(--font-secondary);
-        font-size: 40px;
+        font-size: var(--font-size-title);
         color: var(--primary-500-color);
         margin-bottom: 24px;
     }
 
     .hero-subtitle {
         font-family: var( --font-primary);
-        font-size: 20px;
+        font-size: (--font-size-lg);
         color: var(--secondary-900-color);
         margin-bottom: 48px;
     }
@@ -370,7 +362,8 @@
 
         .hero-content {
             flex-direction: column;
-            align-items: flex-start;
+            justify-content: center;
+        align-items: center;
             gap: 24px;
         }
 
@@ -417,13 +410,6 @@
     box-shadow: var(--box-shadow-heavy);
     position: relative;
 }
-.modal-title {
-        font-family: var(--font-secondary);
-        font-size: 30px;
-        color: var(--primary-300-color);
-        margin-top:24px;
-        margin-bottom: 24px;
-    }
 
 .modal-body {
     margin-top: 24px;
