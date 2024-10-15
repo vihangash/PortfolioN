@@ -79,7 +79,7 @@
     }
 
     body {
-        font-family: var(--grey-100-color);
+        font-family: var( --font-primary);
     }
 
     /* Top navigation styling */
@@ -235,7 +235,7 @@
     }
 
     .hero-subtitle {
-        font-family: var(--grey-100-color);
+        font-family: var( --font-primary);
         font-size: 20px;
         color: var(--secondary-900-color);
         margin-bottom: 48px;
@@ -256,7 +256,7 @@
         border-radius: 25px;
         cursor: pointer;
         align-content: center;
-        font-family: var(--grey-100-color);
+        font-family: var(--font-primary);
         font-weight: 500;
         font-size: 16px;
         transition: all 0.3s ease;
@@ -378,7 +378,7 @@
     transition: background-color 0.3s;
     width: 80%;
     max-width: 300px;
-    font-family: var(--grey-100-color);
+    font-family: var(--font-primary);
     font-size: 16px;
 }
 .resume-btn:hover {
