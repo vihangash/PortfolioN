@@ -77,3 +77,15 @@ window.onload = function() {
         }
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+        const video = document.getElementById("about-video");
+        const fallbackImage = document.getElementById("fallback-image");
+
+        // Check if video can play
+        video.onerror = function () {
+            // Hide video and show fallback image if the video fails to load
+            video.style.display = "none";
+            fallbackImage.style.display = "block";
+        };
+    });
