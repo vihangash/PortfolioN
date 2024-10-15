@@ -119,13 +119,13 @@
 
 .btn-outline {
     border: 2px solid var(--secondary-500-color);
-    background-colour: var(--white-color);
+    background-color: var(--white-color);
     color: var(--secondary-500-color);
-    min-width: 150px;
+    width: 200px;
 }
 
 .btn-outline:hover {
-    background-color: var(--secodanry-50-color);
+    background-color: var(--secodanry-100-color);
 }
 
 .btn-outline:active {
