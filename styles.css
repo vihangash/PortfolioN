@@ -75,6 +75,111 @@
 }
 
 
+
+/* Button Styles */
+.btn {
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+    border-radius: var(--border-radius-lg);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-md);
+    transition: var(--transition-default);
+    box-shadow: var(--box-shadow-medium);
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--primary-500-color);
+    color: var(--white-color);
+}
+
+.btn-primary:active {
+    transform: scale(0.95);
+}
+.btn-primary:hover {
+    background-color: var(--primary-700-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-25-color);
+    color: var(--secondary-300-color);
+    border: 1px solid var(--secondary-300-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-50-color);
+}
+
+.btn-secondary:active {
+    transform: scale(0.95);
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--primary-500-color);
+    color: var(--primary-500-color);
+}
+
+.btn-outline:hover {
+    background-color: var(--primary-25-color);
+}
+
+/* Typography Styles */
+.title {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-500-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.subtitle {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    color: var(--secondary-900-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.paragraph {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+    color: var(--primary-900-color);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Utility Classes for Customizing Colors and Alignment */
+.text-primary {
+    color: var(--primary-500-color);
+}
+
+.text-secondary {
+    color: var(--secondary-300-color);
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
     /* Reset default margin and padding */
     * {
         margin: 0;
@@ -94,8 +199,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding-top: var(--spacing-sm);
+        padding-bottom: var(--spacing-sm);
     }
 
     .navbar {
@@ -106,14 +211,13 @@
         width: 100%;
         top: 0;
         background-color: var(--white-color);
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--box-shadow-light);
         z-index: 100;
     }
 
     .logo {
-        font-weight: 600;
-        font-size: 24px;
-        color: var(--primary-500-color);
+        width: 80px;
+        height: auto;
     }
 
     .nav-links {
@@ -127,8 +231,8 @@
 
     .nav-links a {
         text-decoration: none;
-        font-weight: 500;
-        font-size: 16px;
+        font-weight: var(--font-weight-medium);
+        font-size: var(--font-size-sm);
         color: var(--primary-900-color);
         transition: color 0.3s;
     }
@@ -139,7 +243,7 @@
 
     .nav-links a.active {
         color: var(--primary-100-color);
-        font-weight: 600;
+        font-weight: var(--font-weight-semi-bold);
     }
 
     /* Mobile menu button */
@@ -167,7 +271,7 @@
             top: 75px;
             right: 40px;
             background-color: var(--white-color);
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--box-shadow-light);
             border-radius: 8px;
             width: 200px;
             flex-direction: column;
@@ -251,49 +355,6 @@
         flex-wrap: wrap;
     }
 
-    .btn {
-        padding-top: 10px;
-        padding-bottom: 12px;
-        padding-left:20px;
-        padding-right:20px;
-        border: none;
-        border-radius: 25px;
-        cursor: pointer;
-        align-content: center;
-        font-family: var(--font-primary);
-        font-weight: 500;
-        font-size: 16px;
-        transition: all 0.3s ease;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .btn-primary {
-        background-color: var(--primary-500-color);
-        color: var(--white-color);
-    }
-
-    .btn-primary:hover {
-        background-color: var(--primary-700-color);
-    }
-
-    .btn-primary:active {
-        transform: scale(0.95);
-    }
-
-    .btn-secondary {
-        background-color: var(--secondary-25-color);
-        color: var(--secondary-300-color);
-        border: 1px solid var(--secondary-300-color);
-    }
-
-    .btn-secondary:hover {
-        background-color: var(--secondary-50-color);
-    }
-
-    .btn-secondary:active {
-        transform: scale(0.95);
-    }
-
     /* Responsive hero section */
     @media screen and (max-width: 768px) {
         .hero-section {
@@ -348,7 +409,7 @@
     border-radius: 10px;
     width: 80%;
     max-width: 300px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: var(--box-shadow-heavy);
     position: relative;
 }
 .modal-title {
@@ -371,23 +432,7 @@
     flex-direction: column;
     align-items: center;
 }
-.resume-btn {
-    background-color: var(--secondary-25-color);
-    color: var(--secondary-500-color);
-    padding: 18px;
-    border: none;
-    border-radius: 25px;
-    margin: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    width: 80%;
-    max-width: 300px;
-    font-family: var(--font-primary);
-    font-size: 16px;
-}
-.resume-btn:hover {
-    background-color: var(--secondary-100-color);
-}
+
 .close-btn {
     position: absolute;
     right: 20px;
@@ -496,7 +541,7 @@
     .work-card {
         background-color: var(--white-color);
         border-radius: 16px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 400px;
         text-decoration: none;
@@ -519,7 +564,7 @@
     }
 
     .card-content {
-        padding: 16px;
+        padding: var(--spacing-sm);
         text-align: left;
     }
 
