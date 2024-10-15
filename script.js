@@ -7,19 +7,6 @@ menuIcon.addEventListener('click', () => {
 });
 });
 
-// Close menu when a link is clicked
-navLinks.forEach(link => {
-  link.addEventListener('click', () => {
-    navMenu.classList.remove('active');
-  });
-    
-// Close menu if click occurs outside the menu
-window.addEventListener('click', (event) => {
-  if (!menuIcon.contains(event.target) && !navMenu.contains(event.target)) {
-    navMenu.classList.remove('active');
-  }
-});
-// Script for scroll-based animations
    // Script for scroll-based animations
     window.addEventListener('scroll', () => {
         const heroSection = document.querySelector('.hero-section');
