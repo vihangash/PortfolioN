@@ -468,11 +468,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
     .about-content {
         text-align: center;
         align-items: center;
+        flex-direction: column;
+        
     }
 
     .about-image-container {
@@ -482,6 +485,7 @@
         align-items: center;
         margin-bottom: 24px;
         width: 200px;
+        height: auto;
         
     }
 
