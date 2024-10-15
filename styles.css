@@ -473,16 +473,26 @@
     }
 
     .about-image-container {
+        position: relative;
+        display:flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 24px;
-        align: center;
+        width: 200px;
         
     }
 
     .about-image {
-        width: 200px;
-        border-radius: 50%;
+        max-width: 100%;
+        max-height: 100%;
     }
 
+    .fallback-image {
+        position: absolute;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
     .about-title {
         font-family: var(--font-secondary);
         font-size: 30px;
