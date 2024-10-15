@@ -160,11 +160,11 @@
 
 /* Utility Classes for Customizing Colors and Alignment */
 .text-primary {
-    color: var(--primary-500-color);
+    color: var(--secondary-500-color);
 }
 
 .text-secondary {
-    color: var(--secondary-300-color);
+    color: var(--secondary-900-color);
 }
 
 .text-white {
