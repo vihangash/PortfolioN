@@ -465,6 +465,9 @@
         max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .about-content {
@@ -484,13 +487,14 @@
 
     .about-image {
         max-width: 100%;
-        max-height: 100%;
+    max-height: 100%;
+    object-fit: contain;
     }
 
     .fallback-image {
-        position: absolute;
         max-width: 100%;
-        max-height: 100%;
+    max-height: 100%;
+    object-fit: contain;
     }
     
     .about-title {
