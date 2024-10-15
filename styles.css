@@ -68,6 +68,10 @@
 
     /* Transition */
     --transition-default: all 0.3s ease;
+
+    /*view area*/
+    --max-width: 1000px;
+    --min-height: 100vh;
 }
 
 
@@ -84,7 +88,7 @@
 
     /* Top navigation styling */
     .nav-container {
-        max-width: 1000px;
+        max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
         display: flex;
@@ -134,7 +138,7 @@
     }
 
     .nav-links a.active {
-        color: var(--primary-50-color);
+        color: var(--primary-100-color);
         font-weight: 600;
     }
 
@@ -198,11 +202,11 @@
         background-image: url('image/Background.png');
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: var(--min-height);
     }
 
     .hero-container {
-        max-width: 1000px;
+        max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
     }
@@ -343,7 +347,7 @@
     padding: 20px;
     border-radius: 10px;
     width: 80%;
-    max-width: 500px;
+    max-width: var(--max-width);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     position: relative;
 }
@@ -402,11 +406,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height: var(--min-height);
     }
 
     .about-container {
-        max-width: 1000px;
+        max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
     }
@@ -452,11 +456,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height: var(--min-height)h;
     }
 
     .work-container {
-        max-width: 1000px;
+        max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -543,11 +547,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
+        min-height: var(--min-height);
     }
 
     .contact-container {
-        max-width: 1000px;
+        max-width: var(--max-width);
         width: 100%;
         margin: 0 auto;
     }
@@ -597,7 +601,7 @@
 }
 
 .footer-container {
-    max-width: 1000px;
+    max-width: var(--max-width);
     width: 100%;
     margin: 0 auto;
 }
