@@ -120,11 +120,15 @@
 .btn-outline {
     border: 2px solid var(--secondary-500-color);
     background-colour: var(--white-color);
-    color: var(--primary-500-color);
+    color: var(--secdonary-500-color);
 }
 
 .btn-outline:hover {
     background-color: var(--secodanry-50-color);
+}
+
+.btn-outline:active {
+    transform: scale(0.95);
 }
 
 /* Typography Styles */
@@ -431,6 +435,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .close-btn {
