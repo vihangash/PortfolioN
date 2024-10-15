@@ -1,25 +1,75 @@
 :root {
-        --primary-25-colour: #F7F3FA;
-        --primary-50-colour: #E8DCF3;
-        --primary-100-color: #A67AD1;
-        --primary-300-colour: #7339AC;
-        --primary-500-colour: #5A189A;
-        --primary-700-colour: #360E5C;
-        --primary-900-colour: #1B072E;
-        --secondary-25-colour: #F3FCFB;
-        --secondary-50-colour: #CBE9E5;
-        --secondary-100-colour: #A3D6D0;
-        --secondary-300-colour: #2A9D8F;
-        --secondary-500-colour: #195E56;
-        --secondary-700-colour: #10453F;
-        --secondary-900-colour: #081F1D;
-        --white-colour: #FFFFFF;
-        --black-colour: #000000;
-        --grey-100-colour: #969696;
-        
-        --font-primary: 'Commissioner', sans-serif;
-        --font-secondary: 'Agdasima', sans-serif;
-    }
+    /* Primary Colors */
+    --primary-25-color: #F7F3FA;
+    --primary-50-color: #E8DCF3;
+    --primary-100-color: #A67AD1;
+    --primary-300-color: #7339AC;
+    --primary-500-color: #5A189A;
+    --primary-700-color: #360E5C;
+    --primary-900-color: #1B072E;
+
+    /* Secondary Colors */
+    --secondary-25-color: #F3FCFB;
+    --secondary-50-color: #CBE9E5;
+    --secondary-100-color: #A3D6D0;
+    --secondary-300-color: #2A9D8F;
+    --secondary-500-color: #195E56;
+    --secondary-700-color: #10453F;
+    --secondary-900-color: #081F1D;
+
+    /* Neutral Colors */
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-100-color: #969696;
+
+    /* Box Shadow */
+    --box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --box-shadow-medium: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    --box-shadow-heavy: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    /* Fonts */
+    --font-primary: 'Commissioner', sans-serif;
+    --font-secondary: 'Agdasima', sans-serif;
+
+    /* Font Sizes */
+    --font-size-xs: 14px;
+    --font-size-sm: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 24px;
+    --font-size-xl: 30px;
+    --font-size-xxl: 36px;
+    --font-size-title: 40px;
+
+    /* Font Weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+
+    /* Spacing (Margin & Padding) */
+    --spacing-xxs: 4px;
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 40px;
+    --spacing-xxl: 64px;
+
+    /* Border Radius */
+    --border-radius-sm: 8px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 25px;
+    --border-radius-round: 50%;
+
+    /* Button Specific Variables */
+    --button-padding-vertical: 10px;
+    --button-padding-horizontal: 20px;
+
+    /* Transition */
+    --transition-default: all 0.3s ease;
+}
+
 
     /* Reset default margin and padding */
     * {
@@ -29,7 +79,7 @@
     }
 
     body {
-        font-family: var(--font-primary);
+        font-family: var(--grey-100-color);
     }
 
     /* Top navigation styling */
@@ -51,7 +101,7 @@
         position: fixed;
         width: 100%;
         top: 0;
-        background-color: var(--white-colour);
+        background-color: var(--white-color);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 100;
     }
@@ -59,7 +109,7 @@
     .logo {
         font-weight: 600;
         font-size: 24px;
-        color: var(--primary-500-colour);
+        color: var(--primary-500-color);
     }
 
     .nav-links {
@@ -75,23 +125,23 @@
         text-decoration: none;
         font-weight: 500;
         font-size: 16px;
-        color: var(--primary-900-colour);
+        color: var(--primary-900-color);
         transition: color 0.3s;
     }
 
     .nav-links a:hover {
-        color: var(--primary-300-colour);
+        color: var(--primary-300-color);
     }
 
     .nav-links a.active {
-        color: var(--primary-100-color);
+        color: var(--primary-50-color);
         font-weight: 600;
     }
 
     /* Mobile menu button */
     .menu-icon {
         display: none;
-        background-color: var(--secondary-25-colour);
+        background-color: var(--secondary-25-color);
         border-radius: 50%;
         padding: 10px;
         cursor: pointer;
@@ -101,7 +151,7 @@
         display: block;
         width: 25px;
         height: 3px;
-        background-color: var(--secondary-300-colour);
+        background-color: var(--secondary-300-color);
         margin: 4px 0;
     }
 
@@ -112,7 +162,7 @@
             position: absolute;
             top: 75px;
             right: 40px;
-            background-color: var(--white-colour);
+            background-color: var(--white-color);
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             width: 200px;
@@ -180,14 +230,14 @@
     .hero-title {
         font-family: var(--font-secondary);
         font-size: 40px;
-        color: var(--primary-500-colour);
+        color: var(--primary-500-color);
         margin-bottom: 24px;
     }
 
     .hero-subtitle {
-        font-family: var(--font-primary);
+        font-family: var(--grey-100-color);
         font-size: 20px;
-        color: var(--secondary-900-colour);
+        color: var(--secondary-900-color);
         margin-bottom: 48px;
     }
 
@@ -206,7 +256,7 @@
         border-radius: 25px;
         cursor: pointer;
         align-content: center;
-        font-family: var(--font-primary);
+        font-family: var(--grey-100-color);
         font-weight: 500;
         font-size: 16px;
         transition: all 0.3s ease;
@@ -214,12 +264,12 @@
     }
 
     .btn-primary {
-        background-color: var(--primary-500-colour);
-        color: var(--white-colour);
+        background-color: var(--primary-500-color);
+        color: var(--white-color);
     }
 
     .btn-primary:hover {
-        background-color: var(--primary-700-colour);
+        background-color: var(--primary-700-color);
     }
 
     .btn-primary:active {
@@ -227,13 +277,13 @@
     }
 
     .btn-secondary {
-        background-color: var(--secondary-25-colour);
-        color: var(--secondary-300-colour);
-        border: 1px solid var(--secondary-300-colour);
+        background-color: var(--secondary-25-color);
+        color: var(--secondary-300-color);
+        border: 1px solid var(--secondary-300-color);
     }
 
     .btn-secondary:hover {
-        background-color: var(--secondary-50-colour);
+        background-color: var(--secondary-50-color);
     }
 
     .btn-secondary:active {
@@ -288,7 +338,7 @@
     background-color: rgba(0,0,0,0.5);
 }
 .modal-content {
-    background-color: var(--white-colour);
+    background-color: var(--white-color);
     margin: 20% auto;
     padding: 20px;
     border-radius: 10px;
@@ -300,7 +350,7 @@
 .modal-title {
         font-family: var(--font-secondary);
         font-size: 30px;
-        color: var(--primary-300-colour);
+        color: var(--primary-300-color);
         margin-top:24px;
         margin-bottom: 24px;
     }
@@ -318,8 +368,8 @@
     align-items: center;
 }
 .resume-btn {
-    background-color: var(--secondary-25-colour);
-    color: var(--secondary-500-colour);
+    background-color: var(--secondary-25-color);
+    color: var(--secondary-500-color);
     padding: 18px;
     border: none;
     border-radius: 25px;
@@ -328,11 +378,11 @@
     transition: background-color 0.3s;
     width: 80%;
     max-width: 300px;
-    font-family: var(--font-primary);
+    font-family: var(--grey-100-color);
     font-size: 16px;
 }
 .resume-btn:hover {
-    background-color: var(--secondary-100-colour);
+    background-color: var(--secondary-100-color);
 }
 .close-btn {
     position: absolute;
@@ -348,7 +398,7 @@
  /* About Section Styles */
     .about-section {
         padding: 76px 40px;
-        background-color: var(--primary-25-colour);
+        background-color: var(--primary-25-color);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -377,14 +427,14 @@
     .about-title {
         font-family: var(--font-secondary);
         font-size: 30px;
-        color: var(--secondary-300-colour);
+        color: var(--secondary-300-color);
         margin-bottom: 24px;
     }
 
     .about-description {
-        font-family: var(--font-primary);
+        font-family: var(--grey-100-color);
         font-size: 18px;
-        color: var(--primary-900-colour);
+        color: var(--primary-900-color);
         margin-bottom: 24px;
         line-height: 1.6;
     }
@@ -397,7 +447,7 @@
 /* Work Section Styles */
     .work-section {
         padding: 100px 40px;
-        background-color: var(--white-colour);
+        background-color: var(--white-color);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -418,14 +468,14 @@
     .work-title {
         font-family: var(--font-secondary);
         font-size: 36px;
-        color: var(--primary-500-colour);
+        color: var(--primary-500-color);
         margin-bottom: 16px;
     }
 
     .work-description {
-        font-family: var(--font-primary);
+        font-family: var(--grey-100-color);
         font-size: 18px;
-        color: var(--secondary-900-colour);
+        color: var(--secondary-900-color);
         margin-bottom: 48px;
         line-height: 1.6;
     }
@@ -440,7 +490,7 @@
     }
 
     .work-card {
-        background-color: var(--white-colour);
+        background-color: var(--white-color);
         border-radius: 16px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         overflow: hidden;
@@ -461,7 +511,7 @@
         height: 200px;
         border-radius: 8px;
         margin: 16px;
-        background-color: var(--secondary-50-colour);
+        background-color: var(--secondary-50-color);
     }
 
     .card-content {
@@ -472,14 +522,14 @@
     .card-title {
         font-family: var(--font-primary);
         font-size: 18px;
-        color: var(--primary-700-colour);
+        color: var(--primary-700-color);
         margin-bottom: 8px;
     }
 
     .card-subtitle {
         font-family: var(--font-primary);
         font-size: 16px;
-        color: var(--grey-100-colour);
+        color: var(--grey-100-color);
     }
 
     .fade-in-scroll.visible {
@@ -489,7 +539,7 @@
 /* Contact Section Styles */
     .contact-section {
         padding: 100px 40px;
-        background-color: var(--secondary-25-colour);
+        background-color: var(--secondary-25-color);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -518,7 +568,7 @@
     .contact-title {
         font-family: var(--font-secondary);
         font-size: 30px;
-        color: var(--secondary-300-colour);
+        color: var(--secondary-300-color);
         margin-bottom: 16px;
     }
 
@@ -526,24 +576,24 @@
         font-family: var(--font-primary);
         font-size: 18px;
         font-weight: 600px;
-        color: var(--primary-500-colour);
+        color: var(--primary-500-color);
         margin-bottom: 8px;
     }
 
     .contact-description {
         font-family: var(--font-primary);
         font-size: 18px;
-        color: var(--primary-900-colour);
+        color: var(--primary-900-color);
         margin-bottom: 48px;
     }
 /* footer Section Styles */
 .footer-section {
     padding: 40px;
-    background-color: var(--white-colour);
+    background-color: var(--white-color);
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-top: 1px solid var(--primary-50-colour);
+    border-top: 1px solid var(--primary-50-color);
 }
 
 .footer-container {
@@ -555,14 +605,14 @@
 .footer-logo {
     font-family: var(--font-secondary);
     font-size: 24px;
-    color: var(--primary-500-colour);
+    color: var(--primary-500-color);
     margin-bottom: 8px;
 }
 
 .footer-text {
     font-family: var(--font-primary);
     font-size: 18px;
-    color: var(--primary-900-colour);
+    color: var(--primary-900-color);
     margin-bottom: 16px;
 }
 
@@ -584,11 +634,11 @@
 }
 
 .social-link:hover i {
-    color: var(--primary-300-colour);
+    color: var(--primary-300-color);
 }
 
 .footer-credits {
     font-family: var(--font-primary);
     font-size: 14px;
-    color: var(--grey-100-colour);
+    color: var(--grey-100-color);
 }
