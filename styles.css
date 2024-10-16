@@ -517,21 +517,6 @@
         align: center;
     }
 
-    .work-title {
-        font-family: var(--font-secondary);
-        font-size: 36px;
-        color: var(--primary-500-color);
-        margin-bottom: 16px;
-    }
-
-    .work-description {
-        font-family: var(--grey-100-color);
-        font-size: 18px;
-        color: var(--secondary-900-color);
-        margin-bottom: 48px;
-        line-height: 1.6;
-    }
-
     .work-cards {
         display: grid;
         align: center;
@@ -567,21 +552,11 @@
     }
 
     .card-content {
-        padding: var(--spacing-sm);
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+        padding-bottom: 0px;
+        padding-top: 0px;
         text-align: left;
-    }
-
-    .card-title {
-        font-family: var(--font-primary);
-        font-size: 18px;
-        color: var(--primary-700-color);
-        margin-bottom: 8px;
-    }
-
-    .card-subtitle {
-        font-family: var(--font-primary);
-        font-size: 16px;
-        color: var(--grey-100-color);
     }
 
     .fade-in-scroll.visible {
