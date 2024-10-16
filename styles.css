@@ -21,7 +21,8 @@
     --white-color: #FFFFFF;
     --black-color: #000000;
     --grey-100-color: #969696;
-    --grey-300-color: #575757;
+    --grey-300-color: #6D6D6D;
+    --grey-500-color: #575757;
 
     /* Box Shadow */
     --box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -158,6 +159,20 @@
     line-height: 1.6;
     margin-bottom: var(--spacing-sm);
 }
+
+.title-hero{
+    font-size: var(--font-size-title);
+    font-weight: var(--font-weight-medium);
+    color: var(--primary-500-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.subtitle-hero{
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    color: var(--grey-500-color);
+}
+
 
 .title-secondary {
     color: var(--secondary-500-color);
@@ -334,20 +349,6 @@
         text-align: left;
     }
 
-    .hero-title {
-        font-family: var(--font-secondary);
-        font-size: var(--font-size-title);
-        color: var(--primary-500-color);
-        margin-bottom: 24px;
-    }
-
-    .hero-subtitle {
-        font-family: var( --font-primary);
-        font-size: (--font-size-xl);
-        color: var(--secondary-900-color);
-        margin-bottom: 48px;
-    }
-
     .hero-buttons {
         display: flex;
         gap: 16px;
@@ -369,16 +370,6 @@
             gap: 24px;
         }
 
-        .hero-subtitle {
-        font-size: 18px;
-        margin-bottom: 24px;
-    }
-        
-        .hero-title {
-        font-size: 30px;
-        margin-bottom: 8px;
-        }
-
         .profile-pic {
             margin-bottom: 16px;
             width: 300px;
@@ -386,7 +377,7 @@
         }
 
         .hero-buttons {
-            justify-content: flex-start;
+            gap: 8px;
         }
     }   
 
