@@ -109,6 +109,7 @@
     background-color: var(--secondary-25-color);
     color: var(--secondary-300-color);
     border: 1px solid var(--secondary-300-color);
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
 
 .btn-secondary:hover {
