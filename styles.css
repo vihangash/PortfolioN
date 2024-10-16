@@ -135,7 +135,7 @@
 /* Typography Styles */
 .title {
     font-family: var(--font-secondary);
-    font-size: var(--font-size-title);
+    font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--primary-500-color);
     margin-bottom: var(--spacing-md);
@@ -158,13 +158,13 @@
     margin-bottom: var(--spacing-sm);
 }
 
-/* Utility Classes for Customizing Colors and Alignment */
 .title-secondary {
     color: var(--secondary-500-color);
 }
 
 .subtitle-secondary {
     color: var(--secondary-900-color);
+    font-size: var(--font-size-sm);
 }
 
 .paragraph-secondary {
@@ -172,7 +172,12 @@
 }
 
 .paragraph-small{
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xm);
+    color: var(--grey-100-color);
+}
+
+.paragraph-footer{
+    font-size: var(--font-size-xs);
 }
 
 
@@ -341,7 +346,7 @@
 
     .hero-subtitle {
         font-family: var( --font-primary);
-        font-size: (--font-size-lg);
+        font-size: (--font-size-xl);
         color: var(--secondary-900-color);
         margin-bottom: 48px;
     }
