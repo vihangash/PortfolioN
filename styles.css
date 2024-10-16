@@ -347,13 +347,14 @@
 
     .hero-text {
         text-align: left;
-        gap: var(--spacing-md);
+        gap: var(--spacing-xxs);
     }
 
     .hero-buttons {
         display: flex;
         gap: var(--spacing-md);
         flex-wrap: wrap;
+        margin-top: var(--spacing-lg);
     }
 
     /* Responsive hero section */
