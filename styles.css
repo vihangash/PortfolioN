@@ -566,6 +566,65 @@
         opacity: 1;
     }
 
+
+/* Password Modal Styles */
+  .modal-content {
+    background-color: var(--white-color);
+    margin: 20% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: var(--box-shadow-heavy);
+    position: relative;
+  }
+
+  .modal-body {
+    margin-top: 24px;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 24px;
+  }
+
+  .password-input {
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0;
+    border-radius: var(--border-radius-md);
+    border: 1px solid var(--grey-300-color);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-sm);
+    transition: var(--transition-default);
+  }
+
+  .password-input:focus {
+    border-color: var(--primary-300-color);
+    box-shadow: var(--box-shadow-light);
+  }
+
+  .password-input:hover {
+    border-color: var(--primary-100-color);
+  }
+
+  .btn-primary {
+    margin-top: 20px;
+  }
+
+  .error-message {
+    color: var(--primary-500-color);
+    font-size: var(--font-size-xs);
+    margin-top: 16px;
+  }
+
+  .modal-footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-xs);
+  }
+
+
 /* Contact Section Styles */
     .contact-section {
         padding: 100px 40px;
