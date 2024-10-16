@@ -119,7 +119,7 @@
     transform: scale(0.95);
 }
 btn-cta{
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
 }
 
 .btn-outline {
