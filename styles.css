@@ -583,15 +583,13 @@
   .modal-body {
     margin-top: 24px;
     text-align: center;
-    font-family: var(--font-secondary);
-    font-size: 24px;
   }
 
   .password-input {
     width: 100%;
     padding: 12px;
     margin: 16px 0;
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-sm);
     border: 1px solid var(--grey-300-color);
     font-family: var(--font-primary);
     font-size: var(--font-size-sm);
