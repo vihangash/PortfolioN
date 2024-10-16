@@ -607,9 +607,7 @@
     border-color: var(--primary-100-color);
   }
 
-  .btn-primary {
-    margin-top: 20px;
-  }
+
 
   .error-message {
     color: var(--primary-500-color);
