@@ -110,7 +110,7 @@ const projectCards = document.querySelectorAll('.work-card');
   }
 
   viewCaseStudyBtn.addEventListener('click', () => {
-    const correctPassword = 'correct_password'; // Replace with the actual password.
+    const correctPassword = 'V2024';
     if (projectPasswordInput.value === correctPassword) {
       const targetPage = viewCaseStudyBtn.getAttribute('data-target');
       window.location.href = targetPage;
