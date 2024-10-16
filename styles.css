@@ -21,6 +21,7 @@
     --white-color: #FFFFFF;
     --black-color: #000000;
     --grey-100-color: #969696;
+    --grey-300-color: #575757;
 
     /* Box Shadow */
     --box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -153,7 +154,7 @@
     font-family: var(--font-primary);
     font-size: var(--font-size-md);
     font-weight: var(--font-weight-regular);
-    color: var(--primary-900-color);
+    color: var(--grey-300-color);
     line-height: 1.6;
     margin-bottom: var(--spacing-sm);
 }
@@ -165,10 +166,6 @@
 .subtitle-secondary {
     color: var(--secondary-900-color);
     font-size: var(--font-size-sm);
-}
-
-.paragraph-secondary {
-    color: var(--secondary-900-color);
 }
 
 .paragraph-small{
