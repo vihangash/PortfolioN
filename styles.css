@@ -118,9 +118,7 @@
 .btn-secondary:active {
     transform: scale(0.95);
 }
-btn-cta{
-    margin-top: var(--spacing-xl);
-}
+
 
 .btn-outline {
     border: 1px solid var(--secondary-500-color);
