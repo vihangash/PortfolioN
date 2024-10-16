@@ -78,6 +78,48 @@ window.onload = function() {
     }
 }
 
+const projectCards = document.querySelectorAll('.work-card');
+  const projectModal = document.getElementById('projectModal');
+  const closeBtn = document.querySelector('#projectModal .close-btn');
+  const viewCaseStudyBtn = document.getElementById('viewCaseStudyBtn');
+  const projectPasswordInput = document.getElementById('projectPassword');
+  const errorMessage = document.getElementById('error-message');
+  const projectTitle = document.getElementById('projectTitle');
+
+  projectCards.forEach((card, index) => {
+    card.addEventListener('click', () => {
+      projectModal.style.display = 'block';
+      viewCaseStudyBtn.setAttribute('data-target', `project${index + 1}.html`);
+      const cardTitle = card.querySelector('.subtitle.subtitle-secondary').innerText;
+      projectTitle.innerText = cardTitle;
+    });
+  });
+
+  closeBtn.onclick = function () {
+    projectModal.style.display = 'none';
+    projectPasswordInput.value = '';
+    errorMessage.style.display = 'none';
+  }
+
+  window.onclick = function (event) {
+    if (event.target == projectModal) {
+      projectModal.style.display = 'none';
+      projectPasswordInput.value = '';
+      errorMessage.style.display = 'none';
+    }
+  }
+
+  viewCaseStudyBtn.addEventListener('click', () => {
+    const correctPassword = 'correct_password'; // Replace with the actual password.
+    if (projectPasswordInput.value === correctPassword) {
+      const targetPage = viewCaseStudyBtn.getAttribute('data-target');
+      window.location.href = targetPage;
+    } else {
+      errorMessage.style.display = 'block';
+    }
+  });
+
+
 document.addEventListener("DOMContentLoaded", function () {
         const video = document.getElementById("about-video");
         const fallbackImage = document.getElementById("fallback-image");
