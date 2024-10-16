@@ -168,7 +168,7 @@
 }
 
 .subtitle-hero{
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     font-weight: var(--font-weight-medium);
     color: var(--grey-500-color);
 }
@@ -347,11 +347,12 @@
 
     .hero-text {
         text-align: left;
+        gap: var(--spacing-md);
     }
 
     .hero-buttons {
         display: flex;
-        gap: 16px;
+        gap: var(--spacing-md);
         flex-wrap: wrap;
     }
 
@@ -366,7 +367,7 @@
         .hero-content {
             flex-direction: column;
             justify-content: center;
-        align-items: center;
+            align-items: center;
             gap: 24px;
         }
 
@@ -377,7 +378,7 @@
         }
 
         .hero-buttons {
-            gap: 8px;
+            gap: var(--spacing-xs);
         }
     }   
 
