@@ -165,7 +165,7 @@
     line-height: 40px;
     font-weight: var(--font-weight-medium);
     color: var(--primary-500-color);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
 }
 
 .subtitle-hero{
