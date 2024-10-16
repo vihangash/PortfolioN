@@ -118,6 +118,9 @@
 .btn-secondary:active {
     transform: scale(0.95);
 }
+btn-cta{
+    margin-top: var(--spacing-lg);
+}
 
 .btn-outline {
     border: 1px solid var(--secondary-500-color);
@@ -145,9 +148,9 @@
 
 .subtitle {
     font-family: var(--font-primary);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     font-weight: var(--font-weight-medium);
-    color: var(--secondary-900-color);
+    color: var(--secondary-500-color);
     margin-bottom: var(--spacing-sm);
 }
 
@@ -435,6 +438,8 @@
     width: 32px;
     height: 32px;
 }
+
+
  /* About Section Styles */
     .about-section {
         padding: 76px 40px;
@@ -592,27 +597,6 @@
         height: auto;
     }
 
-    .contact-title {
-        font-family: var(--font-secondary);
-        font-size: 30px;
-        color: var(--secondary-300-color);
-        margin-bottom: 16px;
-    }
-
-    .contact-subtitle {
-        font-family: var(--font-primary);
-        font-size: 18px;
-        font-weight: 600px;
-        color: var(--primary-500-color);
-        margin-bottom: 8px;
-    }
-
-    .contact-description {
-        font-family: var(--font-primary);
-        font-size: 18px;
-        color: var(--primary-900-color);
-        margin-bottom: 48px;
-    }
 /* footer Section Styles */
 .footer-section {
     padding: 40px;
