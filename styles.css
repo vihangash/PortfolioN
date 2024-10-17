@@ -196,7 +196,9 @@
 .paragraph-footer{
     font-size: var(--font-size-xs);
 }
-
+.paragraph-secodnary{
+    color: var(--primary-900-color);
+}
 
 
     /* Reset default margin and padding */
