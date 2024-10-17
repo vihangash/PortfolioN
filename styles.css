@@ -59,6 +59,7 @@
     --spacing-xxl: 64px;
 
     /* Border Radius */
+    --border-radius-xs: 8px;
     --border-radius-sm: 14px;
     --border-radius-md: 16px;
     --border-radius-lg: 25px;
@@ -572,8 +573,8 @@
   .modal-content {
     background-color: var(--white-color);
     margin: 20% auto;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 16px;
+    border-radius: 4px;
     width: 80%;
     max-width: 500px;
     box-shadow: var(--box-shadow-heavy);
@@ -581,7 +582,7 @@
   }
 
   .modal-body {
-    margin-top: 24px;
+    margin-top: 16px;
     text-align: center;
   }
 
@@ -589,7 +590,8 @@
     width: 100%;
     padding: 12px;
     margin: 16px 0;
-    border-radius: var(--border-radius-sm);
+    margin-bottom:40px;
+    border-radius: var(--border-radius-xs);
     border: 1px solid var(--grey-300-color);
     font-family: var(--font-primary);
     font-size: var(--font-size-sm);
@@ -614,7 +616,7 @@
   }
 
   .modal-footer {
-    margin-top: 24px;
+    margin-top: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
