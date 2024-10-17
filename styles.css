@@ -189,7 +189,7 @@
 }
 
 .paragraph-small{
-    font-size: var(--font-size-xm);
+    font-size: var(--font-size-xs);
     color: var(--grey-100-color);
 }
 
