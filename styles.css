@@ -198,6 +198,7 @@
 }
 .paragraph-secodnary{
     color: var(--primary-900-color);
+    font-size: var(--font-size-xs);
 }
 
 
