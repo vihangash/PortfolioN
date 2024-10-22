@@ -547,7 +547,7 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        height: 520px;
+        height: 350px;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
