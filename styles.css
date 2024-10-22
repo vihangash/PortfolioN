@@ -24,6 +24,10 @@
     --grey-300-color: #6D6D6D;
     --grey-500-color: #575757;
 
+    /*systemic Colors */
+    --red-color: #E5254B;
+    --green-color: #038100#;
+
     /* Box Shadow */
     --box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
     --box-shadow-medium: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -595,8 +599,8 @@
   .password-input {
     width: 400px;
     padding: 12px;
-    margin: 16px 16px;
-    margin-bottom:40px;
+    margin: 16px 0px;
+    margin-bottom:16px;
     border-radius: var(--border-radius-xs);
     border: 1px solid var(--grey-300-color);
     font-family: var(--font-primary);
@@ -616,10 +620,11 @@
 
 
   .error-message {
-    color: var(--primary-500-color);
+    color: var(--red-color);
     font-size: var(--font-size-xs);
     margin-top: 16px;
   }
+
 
   .modal-footer {
     margin-top: 32px;
