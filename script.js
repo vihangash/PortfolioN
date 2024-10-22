@@ -112,8 +112,15 @@ const projectCards = document.querySelectorAll('.work-card');
   viewCaseStudyBtn.addEventListener('click', () => {
     const correctPassword = 'V2024';
     if (projectPasswordInput.value === correctPassword) {
+      const successMessage = document.createElement('p');
+      successMessage.className = 'success-message';
+      successMessage.innerText = 'Password correct! Redirecting to the case study...';
+      successMessage.style.color = 'green';
+      projectModal.querySelector('.modal-body').appendChild(successMessage);
       const targetPage = viewCaseStudyBtn.getAttribute('data-target');
+      setTimeout(() => {
       window.location.href = targetPage;
+    }, 1000);
     } else {
       errorMessage.style.display = 'block';
     }
