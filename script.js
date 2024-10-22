@@ -115,7 +115,7 @@ const projectCards = document.querySelectorAll('.work-card');
       const successMessage = document.createElement('p');
       successMessage.className = 'success-message';
       successMessage.innerText = 'Password correct! Redirecting to the case study...';
-      successMessage.style.color = 'green';
+      
       projectModal.querySelector('.modal-body').appendChild(successMessage);
       const targetPage = viewCaseStudyBtn.getAttribute('data-target');
       setTimeout(() => {
