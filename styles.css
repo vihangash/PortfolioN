@@ -625,7 +625,11 @@
     margin-top: 16px;
   }
 
-
+.success-message {
+    color: var(--green-color);
+    font-size: var(--font-size-xs);
+    margin-top: 16px;
+  }
   .modal-footer {
     margin-top: 32px;
     display: flex;
