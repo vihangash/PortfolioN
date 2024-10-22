@@ -83,6 +83,9 @@ const projectCards = document.querySelectorAll('.work-card');
   const closeBtn = document.querySelector('#projectModal .close-btn');
   const viewCaseStudyBtn = document.getElementById('viewCaseStudyBtn');
   const projectPasswordInput = document.getElementById('projectPassword');
+projectPasswordInput.addEventListener('input', () => {
+    errorMessage.style.display = 'none';
+  });
   const errorMessage = document.getElementById('error-message');
   const projectTitle = document.getElementById('projectTitle');
 
