@@ -546,7 +546,8 @@
         border-radius: 16px;
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
-        max-width: 400px;
+        max-width: 420px;
+        height: 520px;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
