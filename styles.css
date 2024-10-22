@@ -593,9 +593,9 @@
   }
 
   .password-input {
-    width: 300px;
+    width: 400px;
     padding: 12px;
-    margin: 16px 0;
+    margin: 16px 16px;
     margin-bottom:40px;
     border-radius: var(--border-radius-xs);
     border: 1px solid var(--grey-300-color);
