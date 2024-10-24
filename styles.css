@@ -598,7 +598,7 @@
   }
 
   .password-input {
-    width: 400px;
+    max-width: 350px;
     padding: 12px;
     margin: 16px 0px;
     margin-bottom:16px;
