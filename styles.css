@@ -544,7 +544,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: var(--min-height)h;
+        min-height: var(--min-height);
+        
     }
 
     .work-container {
