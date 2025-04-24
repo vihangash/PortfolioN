@@ -23,6 +23,16 @@ menuIcon.addEventListener('click', () => {
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
 
+
+        const certificatesSection = document.getElementById('certificates');
+const certificatesSectionPosition = certificatesSection.getBoundingClientRect().top;
+const screenPosition = window.innerHeight / 1.3;
+
+if (certificatesSectionPosition < screenPosition) {
+    certificatesSection.classList.add('visible');
+}
+        
+
         if (heroSectionPosition < screenPosition && heroSectionPosition > -screenPosition) {
             homeLink.classList.add('active');
         } else {
