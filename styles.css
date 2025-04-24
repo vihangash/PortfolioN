@@ -573,7 +573,7 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        height: 350px;
+        height: 400px;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
@@ -626,7 +626,7 @@
 /* View Case Study CTA */
 .view-case-study {
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 300;
   color: #333;
   display: flex;
   align-items: center;
