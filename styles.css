@@ -606,6 +606,51 @@
     }
 
 
+/* Work card tags */
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+/* View Case Study CTA */
+.view-case-study {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  transition: color 0.3s ease;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.work-card:hover .view-case-study,
+.work-card:hover .arrow {
+  color: #6b2bd4; /* Replace with your hover color */
+}
+
+.work-card:hover .arrow {
+  transform: translateX(4px);
+}
+
+
 /* Password Modal Styles */
   .modal-content {
     background-color: var(--white-color);
