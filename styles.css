@@ -724,7 +724,11 @@
   color: #FFFFFF;
   border: none;
   font-size: 3rem;
-  padding: 0 13 05 15px;
+
+  padding-top: 5px;
+  padding-right: 13px;
+  padding-bottom: 0px;
+  padding-left: 15px;
   cursor: pointer;
   z-index: 2;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
