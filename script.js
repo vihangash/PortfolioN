@@ -39,6 +39,7 @@ menuIcon.addEventListener('click', () => {
             aboutLink.classList.add('active');
             homeLink.classList.remove('active');
             workLink.classList.remove('active');
+            certificatesLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             aboutLink.classList.remove('active');
@@ -48,6 +49,7 @@ menuIcon.addEventListener('click', () => {
             workSection.classList.add('visible');
             workLink.classList.add('active');
             aboutLink.classList.remove('active');
+            certificatesLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             workLink.classList.remove('active');
@@ -67,6 +69,7 @@ if (certificatesSectionPosition < screenPosition) {
             contactSection.classList.add('visible');
             contactLink.classList.add('active');
             workLink.classList.remove('active');
+            certificatesLink.classList.remove('active');
             aboutLink.classList.remove('active');
         } else {
             contactLink.classList.remove('active');
