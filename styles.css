@@ -620,7 +620,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 12px 0 0px; /* More space below tags */
+  margin: 12px 0 1px; /* More space below tags */
 }
 
 .tag {
