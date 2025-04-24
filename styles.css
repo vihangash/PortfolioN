@@ -606,12 +606,22 @@
     }
 
 
-/* Work card tags */
+/* Make card content a flex column */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Tags styling */
 .tag-group {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 12px 0 16px;
+  margin: 12px 0 32px; /* More space below tags */
 }
 
 .tag {
@@ -623,15 +633,20 @@
   font-weight: 500;
 }
 
-/* View Case Study CTA */
+/* View Case Study button */
+.view-case-study-wrapper {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .view-case-study {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 600;
   color: #333;
-  display: flex;
-  align-items: right;
+  display: inline-flex;
+  align-items: center;
   gap: 6px;
-  margin-top: 20px;
   transition: color 0.3s ease;
 }
 
@@ -643,7 +658,7 @@
 /* Hover effect */
 .work-card:hover .view-case-study,
 .work-card:hover .arrow {
-  color: #6b2bd4; /* Replace with your hover color */
+  color: #6b2bd4; /* Your hover color */
 }
 
 .work-card:hover .arrow {
