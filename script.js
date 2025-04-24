@@ -20,7 +20,6 @@ menuIcon.addEventListener('click', () => {
         const heroSectionPosition = heroSection.getBoundingClientRect().top;
         const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
         const workSectionPosition = workSection.getBoundingClientRect().top;
-        const certificateSectionPosition = certificate.getBoundingClientRect().top;
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
         
