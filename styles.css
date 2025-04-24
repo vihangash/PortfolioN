@@ -563,7 +563,7 @@
         align: center;
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 40px;
     }
 
@@ -573,7 +573,7 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        height: 800px;
+        height: 500px;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
