@@ -667,16 +667,24 @@
 
 /*certificate section style*/
 .certificate-section {
-  padding-left: 40px;
-  padding-right: 40px;
-  
+  padding: 100px 40px;
   background-color: var(--primary-25-color);
   text-align: center;
   min-height: var(--min-height);
+   
+    display: flex;
+     flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    
+        
+        
+       
+        
 }
 
 .certificate-container {
-  
   margin: 0 auto;
   position: relative;
     max-width: var(--max-width);
