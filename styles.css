@@ -720,10 +720,11 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--secondary-100-color);
+  background: var(--secondary-500-color);
+  color: #FFFFFF;
   border: none;
-  font-size: 2rem;
-  padding: 50 50px;
+  font-size: 3rem;
+  padding: 0 13 05 15px;
   cursor: pointer;
   z-index: 2;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
