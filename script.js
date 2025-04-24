@@ -11,15 +11,18 @@ menuIcon.addEventListener('click', () => {
         const heroSection = document.querySelector('.hero-section');
         const aboutSection = document.querySelector('.about-section');
         const workSection = document.querySelector('.work-section');
+        const certificateSection = document.querySelector('.certificate-section');
         const contactSection = document.querySelector('.contact-section');
         const homeLink = document.querySelector(".nav-links a[href='#home']");
         const aboutLink = document.querySelector(".nav-links a[href='#about']");
         const workLink = document.querySelector(".nav-links a[href='#work']");
+        const certificateLink = document.querySelector(".nav-links a[href='#certificate']");
         const contactLink = document.querySelector(".nav-links a[href='#contact']");
 
         const heroSectionPosition = heroSection.getBoundingClientRect().top;
         const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
         const workSectionPosition = workSection.getBoundingClientRect().top;
+        const certificateSectionPosition = certificate.getBoundingClientRect().top;
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
         
@@ -35,6 +38,7 @@ menuIcon.addEventListener('click', () => {
             aboutLink.classList.add('active');
             homeLink.classList.remove('active');
             workLink.classList.remove('active');
+            certificateLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             aboutLink.classList.remove('active');
@@ -44,15 +48,27 @@ menuIcon.addEventListener('click', () => {
             workSection.classList.add('visible');
             workLink.classList.add('active');
             aboutLink.classList.remove('active');
+            certificateLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             workLink.classList.remove('active');
+        }
+
+        if (certificateSectionPosition < screenPosition) {
+            certificateSection.classList.add('visible');
+            certificateLink.classList.remove('active');
+            aboutLink.classList.add('active');
+            workLink.classList.remove('active');
+            contactLink.classList.remove('active');
+        } else {
+            certificateLink.classList.remove('active');
         }
 
         if (contactSectionPosition < screenPosition) {
             contactSection.classList.add('visible');
             contactLink.classList.add('active');
             workLink.classList.remove('active');
+            certificateLink.classList.remove('active');
             aboutLink.classList.remove('active');
         } else {
             contactLink.classList.remove('active');
