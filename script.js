@@ -11,10 +11,12 @@ menuIcon.addEventListener('click', () => {
         const heroSection = document.querySelector('.hero-section');
         const aboutSection = document.querySelector('.about-section');
         const workSection = document.querySelector('.work-section');
+        const certificatesSection = document.querySelector('.certificates-section');
         const contactSection = document.querySelector('.contact-section');
         const homeLink = document.querySelector(".nav-links a[href='#home']");
         const aboutLink = document.querySelector(".nav-links a[href='#about']");
         const workLink = document.querySelector(".nav-links a[href='#work']");
+        const certificatesLink = document.querySelector(".nav-links a[href='#certificates']");
         const contactLink = document.querySelector(".nav-links a[href='#contact']");
 
         const heroSectionPosition = heroSection.getBoundingClientRect().top;
