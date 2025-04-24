@@ -22,6 +22,7 @@ menuIcon.addEventListener('click', () => {
         const heroSectionPosition = heroSection.getBoundingClientRect().top;
         const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
         const workSectionPosition = workSection.getBoundingClientRect().top;
+        const certificatesSectionPosition = certificatesSection.getBoundingClientRect().top;
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
         
@@ -37,6 +38,7 @@ menuIcon.addEventListener('click', () => {
             aboutLink.classList.add('active');
             homeLink.classList.remove('active');
             workLink.classList.remove('active');
+            certificatesLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             aboutLink.classList.remove('active');
@@ -45,10 +47,21 @@ menuIcon.addEventListener('click', () => {
         if (workSectionPosition < screenPosition) {
             workSection.classList.add('visible');
             workLink.classList.add('active');
+            certificatesLink.classList.remove('active');
             aboutLink.classList.remove('active');
             contactLink.classList.remove('active');
         } else {
             workLink.classList.remove('active');
+        }
+
+        if (workSectionPosition < screenPosition) {
+            certificatesSection.classList.add('visible');
+            certificatesLink.classList.add('active');
+            workLink.classList.remove('active');
+            aboutLink.classList.remove('active');
+            contactLink.classList.remove('active');
+        } else {
+            certificatesLink.classList.remove('active');
         }
 
 
@@ -56,6 +69,7 @@ menuIcon.addEventListener('click', () => {
             contactSection.classList.add('visible');
             contactLink.classList.add('active');
             workLink.classList.remove('active');
+            certificatesLink.classList.remove('active');
             aboutLink.classList.remove('active');
         } else {
             contactLink.classList.remove('active');
