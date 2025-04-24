@@ -449,35 +449,7 @@
     height: 32px;
 }
 
-/* Logo section under About Me */
-.companies-container {
-    background-color: #ffffff;
-    padding: 40px 20px;
-    margin-top: 40px;
-    text-align: center;
-    border-radius: 8px;
-}
 
-.companies-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.company-logo {
-    max-height: 50px;
-    width: auto;
-    filter: grayscale(100%);
-    opacity: 0.7;
-    transition: filter 0.3s ease, opacity 0.3s ease;
-}
-
-.company-logo:hover {
-    filter: grayscale(0%);
-    opacity: 1;
-}
 
  /* About Section Styles */
     .about-section {
@@ -539,6 +511,28 @@
         opacity: 0;
         transition: opacity 1.5s ease-in-out;
     }
+
+.companies-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.company-logo {
+    max-height: 50px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.company-logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
 
 /* Work Section Styles */
     .work-section {
