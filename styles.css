@@ -669,9 +669,10 @@
 .certificate-section {
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 100px;
-  background-color: var(--secondary-25-color);
+  
+  background-color: var(--primary-25-color);
   text-align: center;
+  min-height: var(--min-height);
 }
 
 .certificate-container {
