@@ -666,15 +666,19 @@
 
 /*certificate section style*/
 .certificate-section {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
+  padding: 100px 40px;
+  background-color: var(--secondary-25-color);
   text-align: center;
+  min-height: var(--min-height);
 }
 
 .certificate-container {
-  max-width: 1200px;
+  
   margin: 0 auto;
   position: relative;
+    max-width: var(--max-width);
+        width: 100%;
+        
 }
 
 .carousel-wrapper {
@@ -701,7 +705,7 @@
 }
 
 .certificate-img {
-  max-height: 180px;
+  max-height: 250px;
   width: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -709,17 +713,17 @@
 }
 
 .certificate-img:hover {
-  transform: scale(1.03);
+  transform: scale(0.30);
 }
 
 .carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
+  background: var(--primary-100-color);
   border: none;
   font-size: 2rem;
-  padding: 0 10px;
+  padding: 10 20px;
   cursor: pointer;
   z-index: 2;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
