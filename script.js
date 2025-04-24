@@ -129,11 +129,6 @@ projectPasswordInput.addEventListener('input', () => {
     }
   });
 
-function scrollCarousel(direction) {
-    const track = document.getElementById('carousel-track');
-    const scrollAmount = 300; // You can tweak this
-    track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-}
 
 document.addEventListener("DOMContentLoaded", function () {
         const video = document.getElementById("about-video");
@@ -146,3 +141,9 @@ document.addEventListener("DOMContentLoaded", function () {
             fallbackImage.style.display = "block";
         };
     });
+
+function scrollCarousel(direction) {
+    const track = document.getElementById('carousel-track');
+    const scrollAmount = 300; // You can tweak this
+    track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
