@@ -666,7 +666,7 @@
 
 /*certificate section style*/
 .certificate-section {
-  padding: 100px 40px;
+  padding: 50px 40px;
   background-color: var(--secondary-25-color);
   text-align: center;
   min-height: var(--min-height);
@@ -720,10 +720,10 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--primary-100-color);
+  background: var(--secondary-100-color);
   border: none;
   font-size: 2rem;
-  padding: 10 20px;
+  padding: 50 50px;
   cursor: pointer;
   z-index: 2;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
