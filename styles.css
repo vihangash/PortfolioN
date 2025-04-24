@@ -669,7 +669,6 @@
   padding: 50px 40px;
   background-color: var(--secondary-25-color);
   text-align: center;
-  min-height: var(--min-height);
 }
 
 .certificate-container {
@@ -705,7 +704,7 @@
 }
 
 .certificate-img {
-  max-height: 250px;
+  max-height: 220px;
   width: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
