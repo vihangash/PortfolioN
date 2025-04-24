@@ -573,7 +573,9 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        height: 500px;
+        min-height: 500px;
+        display:flex;
+        flex-direction: column;
         text-decoration: none;
         transition: transform 0.3s ease;
     }
@@ -608,6 +610,9 @@
   padding: 16px;
   box-sizing: border-box;
   position: relative;
+    justify-content: space-between; /* NEW */
+  flex-grow: 1;
+
 }
 
 /* Tags styling */
