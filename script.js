@@ -11,15 +11,19 @@ menuIcon.addEventListener('click', () => {
         const heroSection = document.querySelector('.hero-section');
         const aboutSection = document.querySelector('.about-section');
         const workSection = document.querySelector('.work-section');
+        const certificatesSection = document.querySelector('.certificate-section');
         const contactSection = document.querySelector('.contact-section');
+
         const homeLink = document.querySelector(".nav-links a[href='#home']");
         const aboutLink = document.querySelector(".nav-links a[href='#about']");
         const workLink = document.querySelector(".nav-links a[href='#work']");
+        const certificatesLink = document.querySelector(".nav-links a[href='#certificates']");
         const contactLink = document.querySelector(".nav-links a[href='#contact']");
 
         const heroSectionPosition = heroSection.getBoundingClientRect().top;
         const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
         const workSectionPosition = workSection.getBoundingClientRect().top;
+        const certificatesSectionPosition = certificatesSection.getBoundingClientRect().top;
         const contactSectionPosition = contactSection.getBoundingClientRect().top;
         const screenPosition = window.innerHeight / 1.3;
         
@@ -48,7 +52,15 @@ menuIcon.addEventListener('click', () => {
         } else {
             workLink.classList.remove('active');
         }
-
+if (certificatesSectionPosition < screenPosition) {
+        certificatesSection.classList.add('visible');
+        certificatesLink.classList.add('active');
+        workLink.classList.remove('active');
+        contactLink.classList.remove('active');
+        aboutLink.classList.remove('active');
+    } else {
+        certificatesLink.classList.remove('active');
+    }
 
 
         if (contactSectionPosition < screenPosition) {
