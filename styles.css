@@ -761,7 +761,7 @@
 /* Responsive */
 @media (max-width: 768px) {
   .certificate-img {
-    max-height: 140px;
+    max-height: 200px;
   }
 }
 /* Contact Section Styles */
