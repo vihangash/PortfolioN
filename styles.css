@@ -534,6 +534,61 @@
     opacity: 1;
 }
 
+/* Certificate Carousel Section */
+.certificate-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.certificate-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.certificate-img {
+    flex: 0 0 auto;
+    max-height: 180px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-btn.prev {
+    left: 0;
+}
+
+.carousel-btn.next {
+    right: 0;
+}
+
 /* Work Section Styles */
     .work-section {
         padding: 100px 40px;
