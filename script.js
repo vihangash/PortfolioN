@@ -142,3 +142,14 @@ document.addEventListener("DOMContentLoaded", function () {
         };
     });
 
+function scrollCarousel(direction) {
+  const track = document.getElementById('carousel-track');
+  const scrollAmount = 300;
+  track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+}
+
+// Auto scroll every 30 seconds
+setInterval(() => {
+  scrollCarousel(1);
+}, 30000); // 30000ms = 30s
+
