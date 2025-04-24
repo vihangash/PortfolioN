@@ -54,7 +54,7 @@ menuIcon.addEventListener('click', () => {
             workLink.classList.remove('active');
         }
 
-        if (workSectionPosition < screenPosition) {
+        if (certificatesSectionPosition < screenPosition) {
             certificatesSection.classList.add('visible');
             certificatesLink.classList.add('active');
             workLink.classList.remove('active');
