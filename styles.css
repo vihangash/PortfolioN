@@ -573,7 +573,7 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        min-height: 450px;
+        min-height: 400px;
         display:flex;
         flex-direction: column;
         text-decoration: none;
@@ -645,6 +645,7 @@
   color: #333;
   display: inline-flex;
   align-items: center;
+    padding-bottom: 10px;
   gap: 6px;
   transition: color 0.3s ease;
 }
