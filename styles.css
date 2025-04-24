@@ -573,7 +573,7 @@
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
         max-width: 420px;
-        min-height: 400px;
+        min-height: 430px;
         display:flex;
         flex-direction: column;
         text-decoration: none;
