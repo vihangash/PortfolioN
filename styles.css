@@ -572,7 +572,7 @@
         border-radius: 16px;
         box-shadow: var(--box-shadow-medium);
         overflow: hidden;
-        max-width: 420px;
+        max-width: 430px;
         min-height: 430px;
         display:flex;
         flex-direction: column;
@@ -607,10 +607,10 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 16px;
+  margin:16px;
   box-sizing: border-box;
   position: relative;
-    justify-content: space-between; /* NEW */
+  justify-content: space-between; /* NEW */
   flex-grow: 1;
 
 }
@@ -620,7 +620,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 16px;
+  margin-bottom: 20px;
 }
 
 .tag {
