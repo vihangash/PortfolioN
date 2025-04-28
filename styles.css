@@ -169,7 +169,7 @@
 
 .title-hero{
     font-size: var(--font-size-title);
-    line-height: 40px;
+    line-height: 45px;
     font-weight: var(--font-weight-medium);
     color: var(--primary-500-color);
     margin-bottom: var(--spacing-xs);
