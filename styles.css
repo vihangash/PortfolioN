@@ -177,7 +177,7 @@
 
 .subtitle-hero{
     font-size: var(--font-size-md);
-    line-height: 20px;
+    line-height: 40px;
     font-weight: var(--font-weight-medium);
     color: var(--grey-500-color);
 }
